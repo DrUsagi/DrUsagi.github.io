@@ -20,11 +20,11 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
+  - title: "Reading List"
+    url: /reading-list/
+    
   - title: "CV"
     url: /cv/
-    
-  - title: "Guestbook"
-    url: /guestbook/
     
   # - title: "CV"
   #   url: /cv-json/

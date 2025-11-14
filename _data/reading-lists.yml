@@ -1,0 +1,36 @@
+# Reading Lists organized by topic
+# Each topic can have multiple reading items with title, author, year, url, and notes
+
+topics:
+  - name: "Human-AI Collaboration"
+    description: "Papers and books on human-AI collaboration, ensembles, and delegation"
+    items:
+      - title: "Example Paper Title 1"
+        authors: "Author 1, Author 2"
+        year: 2024
+        url: "https://example.com/paper1"
+        notes: "Important paper on human-AI ensembles"
+      - title: "Example Paper Title 2"
+        authors: "Author 3"
+        year: 2023
+        url: "https://example.com/paper2"
+        notes: "Key insights on delegation patterns"
+
+  - name: "Generative AI in Finance"
+    description: "Research on the impact of GenAI in corporate finance settings"
+    items:
+      - title: "Example Paper Title 3"
+        authors: "Author 4, Author 5"
+        year: 2024
+        url: "https://example.com/paper3"
+        notes: "GenAI applications in financial forecasting"
+
+  - name: "Behavioral Economics"
+    description: "Behavioral factors in decision-making and investment"
+    items:
+      - title: "Example Book Title 1"
+        authors: "Author 6"
+        year: 2022
+        url: "https://example.com/book1"
+        notes: "Classic text on behavioral biases"
+

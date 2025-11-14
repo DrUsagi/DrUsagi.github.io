@@ -1,0 +1,38 @@
+---
+layout: archive
+title: "Reading List"
+permalink: /reading-list/
+author_profile: true
+---
+
+{% include base_path %}
+
+This page contains curated reading lists organized by topic. These are papers, books, and articles that I find particularly valuable for my research and interests.
+
+{% for topic in site.data.reading-lists.topics %}
+  <h2 id="{{ topic.name | slugify }}">{{ topic.name }}</h2>
+  <p style="color: #666; margin-bottom: 1.5em;"><em>{{ topic.description }}</em></p>
+  
+  <ul style="list-style: none; padding-left: 0;">
+    {% for item in topic.items %}
+      <li style="margin-bottom: 1.5em; padding-left: 1em; border-left: 3px solid #8B5CF6;">
+        <strong style="font-size: 1.05em;">{{ item.title }}</strong>
+        {% if item.authors %}
+          <br><span style="color: #555;">{{ item.authors }}</span>
+        {% endif %}
+        {% if item.year %}
+          <span style="color: #555;">({{ item.year }})</span>
+        {% endif %}
+        {% if item.url %}
+          <br><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" style="color: #8B5CF6; text-decoration: none;">🔗 View</a>
+        {% endif %}
+        {% if item.notes %}
+          <br><span style="color: #666; font-style: italic; font-size: 0.95em;">{{ item.notes }}</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <hr style="margin: 3em 0; border: none; border-top: 2px solid #eee;">
+{% endfor %}
+
