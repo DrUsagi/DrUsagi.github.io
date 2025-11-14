@@ -9,6 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+<div style="text-align: center; margin-bottom: 2em;">
+  <a href="{{ base_path }}/files/2025_Academic_CV.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #8B5CF6; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    📄 下载完整简历 (PDF)
+  </a>
+</div>
+
 Education
 ======
 * **PhD in Computer Information Systems**, J.Mack Robinson College of Business, Georgia State University (Atlanta, USA), September 2024 - December 2029 (Expected)
