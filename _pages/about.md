@@ -23,7 +23,7 @@ I employ a diverse methodological toolkit, including: Analytical modeling, Desig
 
 Background
 ======
-Before diving into academia, I spent seven years working in investment banking and private equity. The longer I worked, the more I realized: what really fascinated me wasn't the finance and investing itself, but rather the assets behind those investment decisions and the transformative technologies driving them. I became captivated by how technology innovations were reshaping the world and revolutionizing the business landscape. That's what led me to shift my focus from finance to studying how IT and AI technologies impact organizations and society—which is now at the heart of my research!
+Before diving into academia, I spent seven years working in principal investment and private equity. The longer I worked, the more I realized: what really fascinated me wasn't the finance and investing itself, but rather the assets behind those investment decisions and the transformative technologies driving them. I became captivated by how technology innovations were reshaping the world and revolutionizing the business landscape. That's what led me to shift my focus from finance to studying how IT and AI technologies impact organizations and society—which is now at the heart of my research!
 
 Beyond Academia
 ======
