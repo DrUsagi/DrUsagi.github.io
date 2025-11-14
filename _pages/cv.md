@@ -34,7 +34,7 @@ Working Papers
 
 Conference Presentations
 ======
-* **Shaohui Wang**. Optimizing Business Forecasting through Human-AI Decision Fusion: A Theoretical Framework and Simulation Study. International Conference on Information Systems (ICIS), 2025, Nashville, USA
+* **Shaohui Wang**. Optimizing Business Forecasting through Human-AI Decision Fusion: A Theoretical Framework and Simulation Study. International Conference on Information Systems (ICIS), 2025, Nashville, USA [https://aisel.aisnet.org/icis2025/da_bus/da_bus/3](https://aisel.aisnet.org/icis2025/da_bus/da_bus/3)
 
 Professional Experience
 ======
