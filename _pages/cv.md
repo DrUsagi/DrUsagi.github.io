@@ -32,8 +32,6 @@ Conference Presentations
 
 Professional Experience
 ======
-* **Private Equity Investment Manager**, Gly Capital Management Limited, Geely Automotive Group (HKEX Stock Code: 0175.HK), March 2022 - March 2023
-  * Investment in the primary market. Mainly covering investment opportunities of start-up companies within the New-mobility (new energy Vehicles, Urban Air Travel, Battery technology, energy storage, etc.).
 
 * **Investment Manager**, Group Finance Center in Hong Kong, Zinjin Mining Group (HKEX Stock Code: 2899.HK), September 2021 - March 2022
   * Private equity investment: Actively investment in mining-related upstream and downstream industries, new energy-related, power battery, and hydrogen energy-related industries.
