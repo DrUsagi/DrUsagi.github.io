@@ -14,12 +14,24 @@ const firebaseConfig = {
   appId: "YOUR_APP_ID"
 };
 
+// Check if Firebase is configured
+function isFirebaseConfigured() {
+  return firebaseConfig.apiKey !== "YOUR_API_KEY" && 
+         firebaseConfig.projectId !== "YOUR_PROJECT_ID" &&
+         typeof firebase !== 'undefined';
+}
+
 // Initialize Firebase
-if (typeof firebase !== 'undefined') {
-  firebase.initializeApp(firebaseConfig);
-  const db = firebase.firestore();
+let db = null;
+if (typeof firebase !== 'undefined' && isFirebaseConfigured()) {
+  try {
+    firebase.initializeApp(firebaseConfig);
+    db = firebase.firestore();
+  } catch (error) {
+    console.error('Error initializing Firebase:', error);
+  }
 } else {
-  console.error('Firebase SDK not loaded');
+  console.error('Firebase not configured or SDK not loaded');
 }
 
 // Get user's IP address (using a free service)
@@ -58,9 +70,38 @@ let posts = [];
 
 // Initialize forum
 document.addEventListener('DOMContentLoaded', function() {
-  if (typeof db === 'undefined') {
-    document.getElementById('posts-list').innerHTML = 
-      '<div class="error">Firebase not configured. Please configure Firebase in forum.js</div>';
+  // Check Firebase configuration
+  if (!isFirebaseConfigured() || !db) {
+    const errorMsg = `
+      <div class="error" style="padding: 2em; margin: 2em 0;">
+        <h3>⚠️ Firebase Not Configured</h3>
+        <p>To use the forum, you need to configure Firebase:</p>
+        <ol style="text-align: left; max-width: 600px; margin: 1em auto;">
+          <li>Go to <a href="https://console.firebase.google.com/" target="_blank">Firebase Console</a> and create a project</li>
+          <li>Enable Firestore Database</li>
+          <li>Get your Firebase configuration from Project Settings</li>
+          <li>Open <code>assets/js/forum.js</code> and replace the <code>firebaseConfig</code> object with your configuration</li>
+          <li>See <code>FIREBASE_SETUP.md</code> for detailed instructions</li>
+        </ol>
+        <p style="margin-top: 1em;">
+          <strong>Quick Setup:</strong><br>
+          Edit <code>assets/js/forum.js</code> and replace:<br>
+          <code style="background: #f0f0f0; padding: 0.5em; display: inline-block; margin-top: 0.5em;">
+            apiKey: "YOUR_API_KEY"<br>
+            projectId: "YOUR_PROJECT_ID"<br>
+            ...
+          </code>
+        </p>
+      </div>
+    `;
+    const postsList = document.getElementById('posts-list');
+    if (postsList) {
+      postsList.innerHTML = errorMsg;
+    }
+    const newPostSection = document.getElementById('new-post-section');
+    if (newPostSection) {
+      newPostSection.style.display = 'none';
+    }
     return;
   }
 
@@ -96,7 +137,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Load all posts
 function loadPosts() {
-  if (typeof db === 'undefined') return;
+  if (!db || !isFirebaseConfigured()) {
+    console.error('Firebase not configured');
+    return;
+  }
 
   const postsList = document.getElementById('posts-list');
   postsList.innerHTML = '<p class="loading">Loading posts...</p>';
@@ -176,8 +220,8 @@ async function handleNewPost(e) {
     return;
   }
 
-  if (typeof db === 'undefined') {
-    alert('Firebase not configured');
+  if (!db || !isFirebaseConfigured()) {
+    alert('Firebase not configured. Please configure Firebase in assets/js/forum.js');
     return;
   }
 
@@ -211,7 +255,7 @@ async function handleNewPost(e) {
 
 // View post and replies
 function viewPost(postId) {
-  if (typeof db === 'undefined') return;
+  if (!db || !isFirebaseConfigured()) return;
 
   const post = posts.find(p => p.id === postId);
   if (!post) return;
@@ -263,7 +307,7 @@ function viewPost(postId) {
 
 // Load replies for a post
 function loadReplies(postId) {
-  if (typeof db === 'undefined') return;
+  if (!db || !isFirebaseConfigured()) return;
 
   const repliesList = document.getElementById('replies-list');
   repliesList.innerHTML = '<p class="loading">Loading replies...</p>';
@@ -345,8 +389,8 @@ async function handleReply(e) {
     return;
   }
 
-  if (typeof db === 'undefined') {
-    alert('Firebase not configured');
+  if (!db || !isFirebaseConfigured()) {
+    alert('Firebase not configured. Please configure Firebase in assets/js/forum.js');
     return;
   }
 
@@ -404,7 +448,7 @@ async function editPost(postId) {
   const newContent = prompt('Edit content:', post.content);
   if (newContent === null) return;
 
-  if (typeof db === 'undefined') return;
+  if (!db || !isFirebaseConfigured()) return;
 
   try {
     await db.collection('forum_posts').doc(postId).update({
@@ -429,7 +473,7 @@ async function deletePost(postId) {
     return;
   }
 
-  if (typeof db === 'undefined') return;
+  if (!db || !isFirebaseConfigured()) return;
 
   try {
     await db.collection('forum_posts').doc(postId).delete();
@@ -443,7 +487,7 @@ async function deletePost(postId) {
 
 // Edit reply
 async function editReply(postId, replyIndex) {
-  if (typeof db === 'undefined') return;
+  if (!db || !isFirebaseConfigured()) return;
 
   try {
     const postRef = db.collection('forum_posts').doc(postId);
@@ -478,7 +522,7 @@ async function editReply(postId, replyIndex) {
 
 // Delete reply
 async function deleteReply(postId, replyIndex) {
-  if (typeof db === 'undefined') return;
+  if (!db || !isFirebaseConfigured()) return;
 
   try {
     const postRef = db.collection('forum_posts').doc(postId);
