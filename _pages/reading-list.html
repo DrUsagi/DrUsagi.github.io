@@ -45,8 +45,8 @@ author_profile: true
   
   .reading-list-content {
     overflow: hidden;
-    transition: max-height 0.5s ease, opacity 0.3s ease;
-    max-height: 10000px;
+    transition: max-height 0.5s ease, opacity 0.3s ease, margin 0.3s ease, padding 0.3s ease;
+    max-height: 999999px;
     opacity: 1;
   }
   
@@ -132,19 +132,36 @@ This page contains curated reading lists organized by topic. These are papers, b
     const toggle = document.getElementById('toggle-' + topicId);
     
     if (content.classList.contains('collapsed')) {
+      // 展开：先移除collapsed类，然后设置实际高度
       content.classList.remove('collapsed');
+      // 获取内容的实际高度
+      const scrollHeight = content.scrollHeight;
+      content.style.maxHeight = scrollHeight + 'px';
+      // 等待动画完成后，移除maxHeight限制，让内容自然显示
+      setTimeout(() => {
+        content.style.maxHeight = '999999px';
+      }, 500);
       toggle.textContent = '▼';
-      toggle.style.transform = 'rotate(0deg)';
     } else {
+      // 折叠：先设置当前高度，然后添加collapsed类
+      const currentHeight = content.scrollHeight;
+      content.style.maxHeight = currentHeight + 'px';
+      // 强制重排
+      content.offsetHeight;
       content.classList.add('collapsed');
+      content.style.maxHeight = '0px';
       toggle.textContent = '▶';
-      toggle.style.transform = 'rotate(0deg)';
     }
   }
   
-  // 页面加载时，所有分类默认展开
+  // 页面加载时，初始化所有分类的max-height
   document.addEventListener('DOMContentLoaded', function() {
-    // 所有分类默认展开，无需额外操作
+    {% for topic in site.data.reading-lists.topics %}
+      const content{{ forloop.index }} = document.getElementById('content-{{ topic.name | slugify }}');
+      if (content{{ forloop.index }}) {
+        content{{ forloop.index }}.style.maxHeight = '999999px';
+      }
+    {% endfor %}
   });
 </script>
 
