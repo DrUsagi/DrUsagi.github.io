@@ -518,3 +518,846 @@ topics:
         venue: "arXiv"
         url: "https://doi.org/10.48550/arXiv.2303.18223"
         notes: "Comprehensive survey of large language models"
+
+  - name: "Corporate Finance"
+    description: "Research on corporate finance, tournament incentives, and firm policies"
+    items:
+      - title: "Corporate tournaments"
+        authors: "Bognanno, M. L."
+        year: 2001
+        venue: "Journal of Labor Economics"
+        url: "https://doi.org/10.1086/319562"
+        notes: "Foundational work on corporate tournament theory"
+
+      - title: "CEO tournaments: A cross-country analysis of causes, cultural influences, and consequences"
+        authors: "Burns, N., Minnick, K., & Starks, L."
+        year: 2017
+        venue: "Journal of Financial and Quantitative Analysis"
+        url: "https://doi.org/10.1017/S0022109017000163"
+        notes: "Cross-country analysis of CEO tournaments"
+
+      - title: "Industry tournament incentives"
+        authors: "Coles, J. L."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Industry-level tournament incentives"
+
+      - title: "Industry tournament incentives and the product-market benefits of corporate liquidity"
+        authors: "Huang, J., Jain, B. A., & Kini, O."
+        year: 2019
+        venue: "Journal of Financial and Quantitative Analysis"
+        url: "https://doi.org/10.1017/S0022109018000704"
+        notes: "Tournament incentives and corporate liquidity benefits"
+
+      - title: "Rank‐order tournaments and incentive alignment: The effect on firm performance"
+        authors: "Kale, J. R., Reis, E., & Venkateswaran, A."
+        year: 2009
+        venue: "The Journal of Finance"
+        url: "https://doi.org/10.1111/j.1540-6261.2009.01470.x"
+        notes: "Rank-order tournaments and firm performance"
+
+      - title: "Tournament incentives, firm risk, and corporate policies"
+        authors: "Kini, O., & Williams, R."
+        year: 2012
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/j.jfineco.2011.09.005"
+        notes: "Tournament incentives impact on firm risk and corporate policies"
+
+      - title: "Rank-Order Tournaments as Optimum Labor Contracts"
+        authors: "Lazear, E. P., & Rosen, S."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Classic theoretical work on rank-order tournaments as optimal contracts"
+
+      - title: "Executive compensation as an agency problem"
+        authors: "Bebchuk, L. A., & Fried, J. M."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Agency problem perspective on executive compensation"
+
+      - title: "Compensation goals and firm performance"
+        authors: "Bennett, B., Bettis, J. C., Gopalan, R., & Milbourn, T."
+        year: 2017
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/j.jfineco.2017.01.010"
+        notes: "Compensation goals and firm performance relationship"
+
+      - title: "The trouble with stock options"
+        authors: "Hall, B. J., & Murphy, K. J."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Issues with stock option compensation"
+
+      - title: "Managerial incentives and corporate fraud: The sources of incentives matter"
+        authors: "Johnson, S. A., Ryan, H. E., & Tian, Y. S."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Managerial incentives and corporate fraud"
+
+      - title: "The power of incentives"
+        authors: "Lazear, E. P."
+        year: 
+        venue: ""
+        url: "https://doi.org/10.1257/aer.90.2.410"
+        notes: "Theoretical work on the power of incentives"
+
+      - title: "Why do firms use incentives that have no incentive effects?"
+        authors: "Oyer, P."
+        year: 2004
+        venue: "The Journal of Finance"
+        url: "https://doi.org/10.1111/j.1540-6261.2004.00674.x"
+        notes: "Analysis of ineffective incentive structures"
+
+      - title: "Why do some firms give stock options to all employees?: An empirical examination of alternative theories"
+        authors: "Oyer, P., & Schaefer, S."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Empirical examination of broad-based stock options"
+
+      - title: "CEOs' outside employment opportunities and the lack of relative performance evaluation in compensation contracts"
+        authors: "Rajgopal, S., Shevlin, T., & Zamora, V."
+        year: 2006
+        venue: "The Journal of Finance"
+        url: "https://doi.org/10.1111/j.1540-6261.2006.00890.x"
+        notes: "CEO outside opportunities and relative performance evaluation"
+
+      - title: "Do corporations award CEO stock options effectively?"
+        authors: "Yermack, D."
+        year: 1995
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/0304-405X(95)00829-4"
+        notes: "Effectiveness of CEO stock option awards"
+
+      - title: "Do independent directors enhance target shareholder wealth during tender offers?"
+        authors: "Cotter, J. F., Shivdasani, A., & Zenner, M."
+        year: 1997
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/S0304-405X(96)00886-0"
+        notes: "Independent directors and shareholder wealth in tender offers"
+
+      - title: "Takeover bids, the free-rider problem, and the theory of the corporation"
+        authors: "Grossman, S. J., & Hart, O. D."
+        year: 1980
+        venue: "The Bell Journal of Economics"
+        url: "https://doi.org/10.2307/3003400"
+        notes: "Classic work on takeover bids and free-rider problem"
+
+      - title: "Product market synergies and competition in mergers and acquisitions: A text-based analysis"
+        authors: "Hoberg, G., & Phillips, G."
+        year: 2010
+        venue: "Review of Financial Studies"
+        url: "https://doi.org/10.1093/rfs/hhq053"
+        notes: "Text-based analysis of M&A synergies and competition"
+
+      - title: "Financial advisors and shareholder wealth gains in corporate takeovers"
+        authors: "Kale, J. R., Kini, O., & Ryan, H. E."
+        year: 2003
+        venue: "The Journal of Financial and Quantitative Analysis"
+        url: "https://doi.org/10.2307/4126728"
+        notes: "Financial advisors' role in corporate takeovers"
+
+      - title: "A test of the free cash flow hypothesis"
+        authors: "Lang, L. H. P., Stulz, RenéM., & Walkling, R. A."
+        year: 1991
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/0304-405X(91)90005-5"
+        notes: "Empirical test of free cash flow hypothesis"
+
+      - title: "Who makes acquisitions? CEO overconfidence and the market's reaction"
+        authors: "Malmendier, U., & Tate, G."
+        year: 
+        venue: ""
+        url: ""
+        notes: "CEO overconfidence and acquisition decisions"
+
+      - title: "Corporate governance and acquirer returns"
+        authors: "Masulis, R. W., Wang, C., & Xie, F."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Corporate governance impact on acquirer returns"
+
+      - title: "Do bad bidders become good targets?"
+        authors: "Mitchell, M. L., & Lehn, K."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Market for corporate control dynamics"
+
+      - title: "The hubris hypothesis of corporate takeovers"
+        authors: "Roll, R."
+        year: 1986
+        venue: "The Journal of Business"
+        url: "https://doi.org/10.1086/296325"
+        notes: "Hubris hypothesis in corporate takeovers"
+
+      - title: "Markup pricing in mergers and acquisitions"
+        authors: "Schwert, G. W."
+        year: 
+        venue: ""
+        url: "https://doi.org/10.1016/0304-405X(95)00865-C"
+        notes: "Markup pricing in M&A transactions"
+
+      - title: "Inside the family firm: The role of families in succession decisions and performance"
+        authors: "Bennedsen, M., Nielsen, K. M., Lez, F. P. R.-G., & Wolfenzon, D."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Family firms and succession decisions"
+
+      - title: "The vote is cast: The effect of corporate governance on shareholder value"
+        authors: "Cuñat, V., Gine, M., & Guadalupe, M."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Corporate governance effects on shareholder value"
+
+      - title: "Extreme governance: An analysis of dual-class firms in the United States"
+        authors: "Gompers, P. A., Ishii, J., & Metrick, A."
+        year: 2010
+        venue: "Review of Financial Studies"
+        url: "https://doi.org/10.1093/rfs/hhp024"
+        notes: "Analysis of dual-class firm governance structures"
+
+      - title: "The role of proxy advisory firms: Evidence from a regression-discontinuity design"
+        authors: "Malenko, N., & Shen, Y."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Proxy advisory firms' role in corporate governance"
+
+      - title: "Additional evidence on equity ownership and corporate value"
+        authors: "McConnell, J. J., & Servaes, H."
+        year: 1990
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/0304-405X(90)90069-C"
+        notes: "Equity ownership and corporate value relationship"
+
+      - title: "Management ownership and market valuation"
+        authors: "Morck, R., Shleifer, A., & Vishny, R. W."
+        year: 1988
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/0304-405X(88)90048-7"
+        notes: "Management ownership effects on market valuation"
+
+      - title: "How do family ownership, control and management affect firm value?"
+        authors: "Villalonga, B., & Amit, R."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Family ownership, control, and firm value"
+
+      - title: "What determines the value of corporate votes?"
+        authors: "Zingales, L."
+        year: 1995
+        venue: "The Quarterly Journal of Economics"
+        url: "https://doi.org/10.2307/2946648"
+        notes: "Determinants of corporate voting rights value"
+
+      - title: "CEO turnover and relative performance evaluation"
+        authors: "Jenter, D., & Kanaan, F."
+        year: 
+        venue: ""
+        url: ""
+        notes: "CEO turnover and relative performance evaluation"
+
+      - title: "Performance-induced CEO turnover"
+        authors: "Jenter, D., & Lewellen, K."
+        year: 2021
+        venue: "The Review of Financial Studies"
+        url: "https://doi.org/10.1093/rfs/hhaa069"
+        notes: "Performance-induced CEO turnover analysis"
+
+      - title: "How has CEO turnover changed?"
+        authors: "Kaplan, S. N., & Minton, B. A."
+        year: 2012
+        venue: "International Review of Finance"
+        url: "https://doi.org/10.1111/j.1468-2443.2011.01135.x"
+        notes: "Evolution of CEO turnover patterns"
+
+      - title: "CEO turnover and outside succession a cross-sectional analysis"
+        authors: "Parrino, R."
+        year: 1997
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/S0304-405X(97)00028-7"
+        notes: "CEO turnover and outside succession patterns"
+
+      - title: "Automation and new tasks: How technology displaces and reinstates labor"
+        authors: "Acemoglu, D., & Restrepo, P."
+        year: 2019
+        venue: "Journal of Economic Perspectives"
+        url: "https://doi.org/10.1257/jep.33.2.3"
+        notes: "Technology automation and labor displacement"
+
+      - title: "Tasks, automation, and the rise in U.S. wage inequality"
+        authors: "Acemoglu, D., & Restrepo, P."
+        year: 2022
+        venue: "Econometrica"
+        url: "https://doi.org/10.3982/ECTA19815"
+        notes: "Automation impact on U.S. wage inequality"
+
+      - title: "Investment in human capital: A theoretical analysis"
+        authors: "Becker, G. S."
+        year: 1962
+        venue: "Journal of Political Economy"
+        url: "https://doi.org/10.1086/258724"
+        notes: "Classic theoretical work on human capital investment"
+
+      - title: "An incomplete contracts theory of information, technology and organization"
+        authors: "Brynjolfsson, E."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Incomplete contracts theory in technology and organization"
+
+      - title: "Artificial intelligence and the modern productivity paradox: A clash of expectations and statistics"
+        authors: "Brynjolfsson, E., Rock, D., & Syverson, C."
+        year: 2017
+        venue: "National Bureau of Economic Research"
+        url: "https://doi.org/10.3386/w24001"
+        notes: "AI and productivity paradox analysis"
+
+      - title: "Displacement or complementarity? The labor market impact of generative AI"
+        authors: "Chen, W. X., Srinivasan, S., & Zakerinia, S."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Generative AI impact on labor markets"
+
+      - title: "Incomplete contracts and control"
+        authors: "Hart, O."
+        year: 2017
+        venue: "American Economic Review"
+        url: "https://doi.org/10.1257/aer.107.7.1731"
+        notes: "Incomplete contracts and control rights"
+
+      - title: "Property rights and the nature of the firm"
+        authors: "Hart, O., & Moore, J."
+        year: 1990
+        venue: "Journal of Political Economy"
+        url: "https://doi.org/10.1086/261729"
+        notes: "Classic work on property rights and firm theory"
+
+      - title: "The firm as a collection of assets"
+        authors: "Moore, J."
+        year: 1992
+        venue: "European Economic Review"
+        url: "https://doi.org/10.1016/0014-2921(92)90107-8"
+        notes: "Firm theory as collection of assets"
+
+      - title: "Financial theory and corporate policy"
+        authors: "Copeland, T. E., Weston, J. F., & Shastri, K."
+        year: 2000
+        venue: "Addison-Wesley"
+        url: ""
+        notes: "Textbook on financial theory and corporate policy"
+
+      - title: "Optimal capital structure under corporate and personal taxation"
+        authors: "DeAngelo, H., & Masulis, R. W."
+        year: 1980
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/0304-405X(80)90019-7"
+        notes: "Optimal capital structure with taxation"
+
+      - title: "On the theory of the firm in an economy with incomplete markets"
+        authors: "Ekern, S., & Wilson, R."
+        year: 1974
+        venue: "The Bell Journal of Economics and Management Science"
+        url: "https://doi.org/10.2307/3003097"
+        notes: "Firm theory with incomplete markets"
+
+      - title: "Investment decision under uncertainty: Choice-theoretic approaches"
+        authors: "Hirshleifer, J."
+        year: 1965
+        venue: "The Quarterly Journal of Economics"
+        url: "https://doi.org/10.2307/1880650"
+        notes: "Investment decisions under uncertainty"
+
+      - title: "Debt and taxes"
+        authors: "Miller, M. H."
+        year: 1977
+        venue: "The Journal of Finance"
+        url: "https://doi.org/10.1111/j.1540-6261.1977.tb03267.x"
+        notes: "Classic work on debt and taxation"
+
+      - title: "Corporate income taxes and the cost of capital: A correction"
+        authors: "Modigliani, F., & Miller, M. H."
+        year: 1963
+        venue: "The American Economic Review"
+        url: ""
+        notes: "MM theorem correction on corporate taxes"
+
+      - title: "Corporate financing and investment decisions when firms have information that investors do not have"
+        authors: "Myers, S. C."
+        year: 
+        venue: ""
+        url: "https://doi.org/10.1016/0304-405X(84)90023-0"
+        notes: "Information asymmetry in financing and investment"
+
+      - title: "The capital structure puzzle"
+        authors: "Myers, S. C."
+        year: 1984
+        venue: "The Journal of Finance"
+        url: "https://doi.org/10.1111/j.1540-6261.1984.tb03646.x"
+        notes: "Capital structure puzzle and pecking order theory"
+
+      - title: "The investment decision of the firm under uncertainty and the allocative efficiency of capital markets"
+        authors: "Nielsen, N. C."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Investment decisions under uncertainty"
+
+      - title: "A theory of optimal capital structure"
+        authors: "Scott, J. H."
+        year: 1976
+        venue: "The Bell Journal of Economics"
+        url: "https://doi.org/10.2307/3003189"
+        notes: "Optimal capital structure theory"
+
+      - title: "The cost of capital, corporation finance and the theory of investment"
+        authors: "Modigliani, F., & Miller, M. H."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Classic MM theorem on cost of capital"
+
+      - title: "Individual and corporate social responsibility"
+        authors: "Bénabou, R., & Tirole, J."
+        year: 2010
+        venue: "Economica"
+        url: "https://doi.org/10.1111/j.1468-0335.2009.00843.x"
+        notes: "Individual and corporate social responsibility"
+
+      - title: "The trust triangle: Laws, reputation, and culture in empirical finance research"
+        authors: "Dupont, Q., & Karpoff, J. M."
+        year: 2020
+        venue: "Journal of Business Ethics"
+        url: "https://doi.org/10.1007/s10551-019-04229-1"
+        notes: "Trust triangle in finance research"
+
+      - title: "Companies should maximize shareholder welfare not market value"
+        authors: "Hart, O., & Zingales, L."
+        year: 2017
+        venue: "Journal of Law, Finance, and Accounting"
+        url: "https://doi.org/10.1561/108.00000022"
+        notes: "Shareholder welfare vs market value maximization"
+
+      - title: "The modern industrial revolution, exit, and the failure of internal control systems"
+        authors: "Jensen, M. C."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Internal control systems and corporate governance"
+
+      - title: "Power in a theory of the firm"
+        authors: "Rajan, R. G., & Zingales, L."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Power dynamics in firm theory"
+
+      - title: "A theory of friendly boards"
+        authors: "Adams, R. B., & Ferreira, D."
+        year: 2007
+        venue: "The Journal of Finance"
+        url: "https://doi.org/10.1111/j.1540-6261.2007.01206.x"
+        notes: "Theory of friendly board structures"
+
+      - title: "The costs of intense board monitoring"
+        authors: "Faleye, O., Hoitash, R., & Hoitash, U."
+        year: 2011
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/j.jfineco.2011.02.010"
+        notes: "Costs associated with intense board monitoring"
+
+      - title: "CEO-board dynamics"
+        authors: "Graham, J. R., Kim, H., & Leary, M."
+        year: 2020
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/j.jfineco.2020.04.007"
+        notes: "CEO and board interaction dynamics"
+
+      - title: "A theory of board control and size"
+        authors: "Harris, M., & Raviv, A."
+        year: 2008
+        venue: "Review of Financial Studies"
+        url: "https://doi.org/10.1093/rfs/hhl030"
+        notes: "Theoretical framework for board control and size"
+
+      - title: "Boards of directors as an endogenously determined institution: A survey of the economic literature"
+        authors: "Hermalin, B. E., & Weisbach, M. S."
+        year: 
+        venue: ""
+        url: "https://doi.org/10.3386/w8161"
+        notes: "Survey of economic literature on boards"
+
+      - title: "Endogenously chosen boards of directors and their monitoring of the CEO"
+        authors: "Hermalin, B. E., & Weisbach, M. S."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Endogenous board selection and CEO monitoring"
+
+      - title: "Determinants of board size and composition: A theory of corporate boards"
+        authors: "Raheja, C. G."
+        year: 2005
+        venue: "Journal of Financial and Quantitative Analysis"
+        url: "https://doi.org/10.1017/S0022109000002313"
+        notes: "Theory of board size and composition determinants"
+
+      - title: "Who is in whose pocket? Director compensation, board independence, and barriers to effective monitoring"
+        authors: "Ryan, H. E., & Wiggins, R. A."
+        year: 2004
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/j.jfineco.2003.11.002"
+        notes: "Director compensation and board independence"
+
+      - title: "A survey of corporate governance"
+        authors: "Shleifer, A., & Vishny, R. W."
+        year: 1997
+        venue: "The Journal of Finance"
+        url: "https://doi.org/10.1111/j.1540-6261.1997.tb04820.x"
+        notes: "Comprehensive survey of corporate governance"
+
+      - title: "Corporate boards: New thinking"
+        authors: "Adams, R. B."
+        year: 
+        venue: ""
+        url: ""
+        notes: "New perspectives on corporate boards"
+
+      - title: "The role of boards of directors in corporate governance: A conceptual framework and survey"
+        authors: "Adams, R. B., Hermalin, B. E., & Weisbach, M. S."
+        year: 2010
+        venue: "Journal of Economic Literature"
+        url: "https://doi.org/10.1257/jel.48.1.58"
+        notes: "Conceptual framework on boards in corporate governance"
+
+      - title: "Does the location of directors matter? Information acquisition and board decisions"
+        authors: "Alam, Z. S., Chen, M. A., Ciccotello, C. S., & Ryan, H. E."
+        year: 2014
+        venue: "Journal of Financial and Quantitative Analysis"
+        url: "https://doi.org/10.1017/S002210901400012X"
+        notes: "Director location and board decision-making"
+
+      - title: "Board structure mandates: Consequences for director location and financial reporting"
+        authors: "Alam, Z. S., Chen, M. A., Ciccotello, C. S., & Ryan, H. E."
+        year: 2018
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.2017.2736"
+        notes: "Board structure mandates and their consequences"
+
+      - title: "Boards: Does one size fit all?"
+        authors: "Coles, J. L., Daniel, N. D., & Naveen, L."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Optimal board size across different firms"
+
+      - title: "Are busy boards detrimental?"
+        authors: "Field, L., Lowry, M., & Mkrtchyan, A."
+        year: 2013
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/j.jfineco.2013.02.004"
+        notes: "Impact of busy boards on firm performance"
+
+      - title: "The determinants of board composition"
+        authors: "Hermalin, B. E., & Weisbach, M. S."
+        year: 1988
+        venue: "Rand Journal of Economics"
+        url: "https://doi.org/10.2307/2555459"
+        notes: "Determinants of board composition"
+
+      - title: "How valuable are independent directors? Evidence from external distractions"
+        authors: "Masulis, R. W., & Zhang, E. J."
+        year: 2019
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/j.jfineco.2018.02.014"
+        notes: "Value of independent directors"
+
+      - title: "CEO involvement in the selection of new board members: An empirical analysis"
+        authors: "Shivdasani, A., & Yermack, D."
+        year: 1999
+        venue: "The Journal of Finance"
+        url: "https://doi.org/10.1111/0022-1082.00168"
+        notes: "CEO influence on board member selection"
+
+      - title: "Board classification and managerial entrenchment: Evidence from the market for corporate control"
+        authors: "Bates, T. W., Becher, D. A., & Lemmon, M. L."
+        year: 
+        venue: ""
+        url: "https://doi.org/10.1016/j.jfineco.2007.03.007"
+        notes: "Board classification and managerial entrenchment"
+
+      - title: "What matters in corporate governance"
+        authors: "Bebchuk, L., Cohen, A., & Ferrell, A."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Key factors in corporate governance"
+
+      - title: "Enjoying the quiet life? Corporate governance and managerial preferences"
+        authors: "Bertrand, M., & Mullainathan, S."
+        year: 2003
+        venue: "Journal of Political Economy"
+        url: "https://doi.org/10.1086/376950"
+        notes: "Corporate governance and managerial preferences"
+
+      - title: "Outside directors and the adoption of poison pills"
+        authors: "Brickley, J. A., Coles, J. L., & Terry, R. L."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Outside directors and poison pill adoption"
+
+      - title: "Poison or placebo? Evidence on the deterrence and wealth effects of modern antitakeover measures"
+        authors: "Comment, R., & Schwert, G. W."
+        year: 1995
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/0304-405X(94)00823-J"
+        notes: "Antitakeover measures effectiveness"
+
+      - title: "Takeover defenses of IPO firms"
+        authors: "Field, L. C., & Karpoff, J. M."
+        year: 2002
+        venue: "The Journal of Finance"
+        url: "https://doi.org/10.1111/0022-1082.00482"
+        notes: "Takeover defenses in IPO firms"
+
+      - title: "A reexamination of corporate governance and equity prices"
+        authors: "Johnson, S. A., Moorman, T. C., & Sorescu, S."
+        year: 2009
+        venue: "Review of Financial Studies"
+        url: "https://doi.org/10.1093/rfs/hhp018"
+        notes: "Corporate governance and equity prices relationship"
+
+      - title: "The other side of the trade‐off: The impact of risk on executive compensation"
+        authors: "Aggarwal, R. K., & Samwick, A. A."
+        year: 1999
+        venue: "Journal of Political Economy"
+        url: "https://doi.org/10.1086/250051"
+        notes: "Risk impact on executive compensation"
+
+      - title: "Are CEOs rewarded for luck? The ones without principals are"
+        authors: "Bertrand, M., & Mullainathan, S."
+        year: 2001
+        venue: "The Quarterly Journal of Economics"
+        url: "https://doi.org/10.1162/00335530152466269"
+        notes: "CEO compensation and luck vs performance"
+
+      - title: "Performance-vesting provisions in executive compensation"
+        authors: "Bettis, J. C., Bizjak, J., Coles, J. L., & Kalpathy, S."
+        year: 2018
+        venue: "Journal of Accounting and Economics"
+        url: "https://doi.org/10.1016/j.jacceco.2018.05.001"
+        notes: "Performance-vesting provisions in compensation"
+
+      - title: "Stock-based incentive compensation and investment behavior"
+        authors: "Bizjak, J. M., Brickley, J. A., & Coles, J. L."
+        year: 1993
+        venue: "Journal of Accounting and Economics"
+        url: "https://doi.org/10.1016/0165-4101(93)90017-A"
+        notes: "Stock-based incentives and investment behavior"
+
+      - title: "Managerial incentives and risk-taking"
+        authors: "Coles, J., Daniel, N., & Naveen, L."
+        year: 2006
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/j.jfineco.2004.09.004"
+        notes: "Managerial incentives and risk-taking behavior"
+
+      - title: "Estimating the value of employee stock option portfolios and their sensitivities to price and volatility"
+        authors: "Guay, W."
+        year: 
+        venue: ""
+        url: "https://doi.org/10.2139/ssrn.138269"
+        notes: "Valuation of employee stock options"
+
+      - title: "Moral hazard and observability"
+        authors: "Holmstrom, B."
+        year: 1979
+        venue: "The Bell Journal of Economics"
+        url: "https://doi.org/10.2307/3003320"
+        notes: "Classic work on moral hazard and observability"
+
+      - title: "Multitask principal-agent analyses: Incentive contracts, asset ownership, and job design"
+        authors: "Holmstrom, B., & Milgrom, P."
+        year: 1991
+        venue: "Journal of Law, Economics, & Organization"
+        url: "https://doi.org/10.1093/jleo/7.special_issue.24"
+        notes: "Multitask principal-agent theory"
+
+      - title: "Performance pay and top-management incentives"
+        authors: "Jensen, M. C."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Performance pay and top management incentives"
+
+      - title: "Indexed executive stock options"
+        authors: "Johnson, S. A., & Tian, Y. S."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Indexed executive stock option plans"
+
+      - title: "The value and incentive effects of nontraditional executive stock option plans"
+        authors: "Johnson, S. A., & Tian, Y. S."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Nontraditional stock option plans"
+
+      - title: "The influence of firm- and manager-specific characteristics on the structure of executive compensation"
+        authors: "Ryan, H. E., & Wiggins, R. A."
+        year: 2001
+        venue: "Journal of Corporate Finance"
+        url: "https://doi.org/10.1016/S0929-1199(00)00021-3"
+        notes: "Firm and manager characteristics on compensation structure"
+
+      - title: "The investment opportunity set and corporate financing, dividend, and compensation policies"
+        authors: "Smith, C. W., & Watts, R. L."
+        year: 1992
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/0304-405X(92)90029-W"
+        notes: "Investment opportunity set and corporate policies"
+
+      - title: "Handbook of corporate finance: Empirical corporate finance"
+        authors: "Eckbo, B. E. (Ed.)"
+        year: 2007
+        venue: "Elsevier/North-Holland"
+        url: ""
+        notes: "Handbook on empirical corporate finance"
+
+      - title: "The oxford handbook of corporate governance"
+        authors: "Wright, M., Siegel, D. S., Keasey, K., & Filatotchev, I. (Eds.)"
+        year: 2013
+        venue: "Oxford University Press"
+        url: ""
+        notes: "Handbook on corporate governance"
+
+      - title: "Corporate governance under asymmetric information: Theory and evidence"
+        authors: "Chen, C.-W., & Liu, V. W."
+        year: 2013
+        venue: "Economic Modelling"
+        url: "https://doi.org/10.1016/j.econmod.2013.04.010"
+        notes: "Corporate governance with asymmetric information"
+
+      - title: "Information asymmetry, leverage and firm value: Do crisis and growth matter?"
+        authors: "Fosu, S., Danso, A., Ahmad, W., & Coffie, W."
+        year: 2016
+        venue: "International Review of Financial Analysis"
+        url: "https://doi.org/10.1016/j.irfa.2016.05.002"
+        notes: "Information asymmetry, leverage, and firm value"
+
+      - title: "Asymmetric information, corporate finance, and investment"
+        authors: "Hubbard, R. G. (Ed.)"
+        year: 1990
+        venue: "University of Chicago Press"
+        url: ""
+        notes: "Edited volume on asymmetric information in finance"
+
+      - title: "Debt vs. Equity and Asymmetric Information: A Review"
+        authors: "Klein, L. S., O'Brien, T. J., & Peters, S. R."
+        year: 2002
+        venue: "Financial Review"
+        url: "https://doi.org/10.1111/1540-6288.00017"
+        notes: "Review of debt vs equity under asymmetric information"
+
+      - title: "Stock Price Movements in Response to Stock Issues under Asymmetric Information"
+        authors: "Krasker, W. S."
+        year: 
+        venue: ""
+        url: "https://doi.org/10.1111/j.1540-6261.1986.tb04493.x"
+        notes: "Stock price reactions to stock issues"
+
+      - title: "Does public financial news resolve asymmetric information?"
+        authors: "Tetlock, P. C."
+        year: 2010
+        venue: "The Review of Financial Studies"
+        url: "https://doi.org/10.1093/rfs/hhq052"
+        notes: "Public financial news and information asymmetry"
+
+      - title: "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism"
+        authors: "Akerlof, G. A."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Classic work on market for lemons and information asymmetry"
+
+      - title: "Review on Efficiency and Anomalies in Stock Markets"
+        authors: "Woo, K.-Y., Mai, C., McAleer, M., & Wong, W.-K."
+        year: 2020
+        venue: "Economies"
+        url: "https://doi.org/10.3390/economies8010020"
+        notes: "Review of market efficiency and anomalies"
+
+      - title: "Momentum and Reversal: Does What Goes Up Always Come Down?"
+        authors: "Conrad, J., & Yavuz, M. D."
+        year: 2017
+        venue: "Review of Finance"
+        url: "https://doi.org/10.1093/rof/rfw006"
+        notes: "Momentum and reversal patterns in stock markets"
+
+      - title: "Efficient Capital Markets: A Review of Theory and Empirical Work"
+        authors: "Fama, E. F."
+        year: 
+        venue: ""
+        url: "https://doi.org/10.2307/2325486"
+        notes: "Classic review of efficient market hypothesis"
+
+      - title: "Efficient Capital Markets: II"
+        authors: "Fama, E. F."
+        year: 
+        venue: ""
+        url: "https://doi.org/10.1111/j.1540-6261.1991.tb04636.x"
+        notes: "Follow-up review on market efficiency"
+
+      - title: "Market efficiency, long-term returns, and behavioral finance"
+        authors: "Fama, E. F."
+        year: 1998
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/S0304-405X(98)00026-9"
+        notes: "Market efficiency and behavioral finance"
+
+      - title: "Information and Competitive Price Systems"
+        authors: "Grossman, S. J., & Stiglitz, J. E."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Information and competitive pricing"
+
+      - title: "Understanding momentum and reversal"
+        authors: "Kelly, B. T., Moskowitz, T. J., & Pruitt, S."
+        year: 2021
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/j.jfineco.2020.06.024"
+        notes: "Understanding momentum and reversal patterns"
+
+      - title: "What Affects the Efficiency of a Market? Some Answers from the Laboratory"
+        authors: "Lundholm, R. J."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Market efficiency from experimental evidence"
+
+      - title: "The Efficient Market Hypothesis and its Critics"
+        authors: "Malkiel, B. G."
+        year: 
+        venue: ""
+        url: "https://doi.org/10.1257/089533003321164958"
+        notes: "Efficient market hypothesis and criticisms"
+
+      - title: "Artificial intelligence, firm growth, and product innovation"
+        authors: "Babina, T., Fedyk, A., He, A., & Hodson, J."
+        year: 2024
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/j.jfineco.2023.103745"
+        notes: "AI impact on firm growth and product innovation"
