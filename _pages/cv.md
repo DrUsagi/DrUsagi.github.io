@@ -9,13 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<style>
-.archive h2 {
-  color: #8B5CF6 !important; /* 漂亮的紫色 */
-  border-bottom-color: #8B5CF6 !important;
-}
-</style>
-
 Education
 ======
 * **PhD in Computer Information Systems**, J.Mack Robinson College of Business, Georgia State University (Atlanta, USA), September 2024 - December 2029 (Expected)

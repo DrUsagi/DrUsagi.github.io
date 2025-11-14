@@ -1,3 +1,14 @@
+---
+title: "Linear Algebra Done Right Done Right v02"
+date: 2025-01-14
+categories:
+  - Mathematics
+  - Linear Algebra
+tags:
+  - Linear Algebra
+  - Mathematics
+  - Study Notes
+---
 
 基于Linear Algebra Done Right 原书第三版
 
