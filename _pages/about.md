@@ -26,7 +26,7 @@ I employ a diverse methodological toolkit, including:
 
 Background
 ======
-Prior to my academic journey, I spent seven years working in private equity investment. While I gained valuable experience in financial modeling and analysis, I came to realize that my challenges in investment weren't primarily due to technical limitations in finance mathematics, but rather behavioral factors. This realization sparked my deep interest in behavioral research, which now informs my academic work.
+Prior to my acedmic journey, I spent seven years working in investment banking and private equity. I learned a lot about financial modeling and analysis, but here's the thing: I wasn't exactly crushing it in the investment world 😅. It wasn't because I couldn't handle the math—I'm actually pretty good with numbers 📊. The real problem? It was more about human psychology than financial formulas. That realization sparked my interest in behavioral research, which is now a big part of my work!
 
 Beyond Academia
 ======
