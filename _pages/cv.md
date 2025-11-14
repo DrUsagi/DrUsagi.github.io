@@ -39,16 +39,16 @@ Conference Presentations
 Professional Experience
 ======
 
-* **Investment Manager**, Group Finance Center in Hong Kong, Zinjin Mining Group (HKEX Stock Code: 2899.HK), September 2021 - March 2022
+* **Investment Manager**, Group Finance Center in Hong Kong, Zinjin Mining Group (HKEX Stock Code: 2899.HK), September 2021 - March 2022, Hong Kong SAR
   * Private equity investment: Actively investment in mining-related upstream and downstream industries, new energy-related, power battery, and hydrogen energy-related industries.
 
-* **Deputy Investment Manager**, Investment Management Department, Guangdong Investment Limited (HKEX Stock Code: 0270.HK), September 2019 - September 2021
+* **Deputy Investment Manager**, Investment Management Department, Guangdong Investment Limited (HKEX Stock Code: 0270.HK), September 2019 - September 2021, Hong Kong SAR
   * Project Investment: Investment opportunity Sourcing and actively participating in investment projects in HK and mainland China.
 
-* **Relationship Manager**, Corporate Banking Department, China CITIC Bank International Limited (HKEX Stock Code: 0998.HK), November 2018 - September 2019
+* **Relationship Manager**, Corporate Banking Department, China CITIC Bank International Limited (HKEX Stock Code: 0998.HK), November 2018 - September 2019, Hong Kong SAR
   * Provide structured financing including loans, cross-border M&A, trade, cash management, treasury, Debt Capital Market Products and other corporate banking products to corporate banking clients.
 
-* **Senior Associate**, Asset Management Department, China CITIC Financial Asset Management Co., Ltd (HKEX Stock Code: 0993.HK), August 2015 - October 2018
+* **Senior Associate**, Asset Management Department, China CITIC Financial Asset Management Co., Ltd (HKEX Stock Code: 0993.HK), August 2015 - October 2018, Hong Kong SAR
   * Principal investment: Investment opportunity Sourcing; Performing due diligence and financial/operational analysis on a variety of companies/properties in a variety of investment structures (private equity investment, fund, fund of fund, etc.).
 
 Data Analytics Skills
