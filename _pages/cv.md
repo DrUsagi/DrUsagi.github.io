@@ -11,7 +11,7 @@ redirect_from:
 
 <div style="text-align: center; margin-bottom: 2em;">
   <a href="{{ base_path }}/files/2025_Academic_CV.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #8B5CF6; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
-    📄 下载完整简历 (PDF)
+    📄 Download CV (PDF)
   </a>
 </div>
 
