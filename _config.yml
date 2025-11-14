@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0009-0003-7274-4471"
   semantic         : # URL
   pubmed           : # URL
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Shaohui-Wang-17?ev=prf_overview"
   scopus           : # URL
 
   # Repositories and software development
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "shaohuiwang"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
