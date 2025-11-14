@@ -1361,3 +1361,496 @@ topics:
         venue: "Journal of Financial Economics"
         url: "https://doi.org/10.1016/j.jfineco.2023.103745"
         notes: "AI impact on firm growth and product innovation"
+
+  - name: "Economic Impact of AI"
+    description: "Research on the economic, social, and organizational impacts of artificial intelligence"
+    items:
+      - title: "MANAGING ARTIFICIAL INTELLIGENCE"
+        authors: "Berente, N., Gu, B., Recker, J., & Santhanam, R."
+        year: 2021
+        venue: "MIS Quarterly"
+        url: ""
+        notes: "Management perspectives on artificial intelligence"
+
+      - title: "Artificial intelligence and the modern productivity paradox: A clash of expectations and statistics"
+        authors: "Brynjolfsson, E., Rock, D., & Syverson, C."
+        year: 2019
+        venue: "University of Chicago Press"
+        url: ""
+        notes: "AI and productivity paradox analysis"
+
+      - title: "The impact of generative artificial intelligence on socioeconomic inequalities and policy making"
+        authors: "Capraro, V., Lentsch, A., Acemoglu, D., & Viale, R."
+        year: 2024
+        venue: "PNAS Nexus"
+        url: "https://doi.org/10.1093/pnasnexus/pgae191"
+        notes: "Generative AI impact on socioeconomic inequalities"
+
+      - title: "Machine behaviour"
+        authors: "Rahwan, I., Cebrian, M., Obradovich, N., Bongard, J., Bonnefon, J.-F., Breazeal, C., & Wellman, M."
+        year: 2019
+        venue: "Nature"
+        url: "https://doi.org/10.1038/s41586-019-1138-y"
+        notes: "Machine behavior and its implications"
+
+      - title: "Artificial Intelligence and Management: The Automation–Augmentation Paradox"
+        authors: "Raisch, S., & Krakowski, S."
+        year: 2021
+        venue: "Academy of Management Review"
+        url: "https://doi.org/10.5465/amr.2018.0072"
+        notes: "Automation-augmentation paradox in management"
+
+      - title: "Taxonomy of risks posed by language models"
+        authors: "Weidinger, L. & Others"
+        year: 2022
+        venue: "FAccT '22: 2022 ACM Conference on Fairness, Accountability, and Transparency"
+        url: "https://doi.org/10.1145/3531146.3533088"
+        notes: "Risks taxonomy for language models"
+
+      - title: "The economics of artificial intelligence: An agenda"
+        authors: "Agrawal, A., Gans, J., & Goldfarb, A."
+        year: 2019
+        venue: "University of Chicago Press"
+        url: "https://doi.org/10.7208/chicago/9780226613475.001.0001"
+        notes: "Comprehensive agenda on AI economics"
+
+      - title: "The social power of algorithms"
+        authors: "Beer, D."
+        year: 2017
+        venue: "Information, Communication & Society"
+        url: "https://doi.org/10.1080/1369118X.2016.1216147"
+        notes: "Social power and influence of algorithms"
+
+      - title: "The productivity paradox of information technology"
+        authors: "Brynjolfsson, E."
+        year: 1993
+        venue: "Communications of the ACM"
+        url: "https://doi.org/10.1145/163298.163309"
+        notes: "Classic work on IT productivity paradox"
+
+      - title: "Misperceiving interactions among complements and substitutes: Organizational consequences"
+        authors: "Siggelkow, N."
+        year: 2002
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.48.7.900.2820"
+        notes: "Organizational consequences of misperceiving interactions"
+
+      - title: "Big other: Surveillance capitalism and the prospects of an information civilization"
+        authors: "Zuboff, S."
+        year: 2015
+        venue: "Journal of Information Technology"
+        url: "https://doi.org/10.1057/jit.2015.5"
+        notes: "Surveillance capitalism and information civilization"
+
+      - title: "The age of surveillance capitalism"
+        authors: "Zuboff, S."
+        year: 2023
+        venue: "Routledge"
+        url: "https://doi.org/10.4324/9781003320609-27"
+        notes: "Surveillance capitalism in the modern age"
+
+      - title: "Institutions, technology and prosperity"
+        authors: "Acemoglu, D."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Institutions, technology, and economic prosperity"
+
+      - title: "Artificial intelligence and jobs: Evidence from online vacancies"
+        authors: "Acemoglu, D., Autor, D., Hazell, J., & Restrepo, P."
+        year: 2022
+        venue: "Journal of Labor Economics"
+        url: "https://doi.org/10.1086/718327"
+        notes: "AI impact on jobs from online vacancy data"
+
+      - title: "Why are there still so many jobs? The history and future of workplace automation"
+        authors: "Autor, D. H."
+        year: 2015
+        venue: "Journal of Economic Perspectives"
+        url: "https://doi.org/10.1257/jep.29.3.3"
+        notes: "Workplace automation and job persistence"
+
+      - title: "The skill content of recent technological change: An empirical exploration"
+        authors: "Autor, D. H., Levy, F., & Murnane, R. J."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Skill content of technological change"
+
+      - title: "The turing trap: The promise & peril of human-like artificial intelligence"
+        authors: "Brynjolfsson, E."
+        year: 2022
+        venue: "Daedalus"
+        url: "https://doi.org/10.1162/daed_a_01915"
+        notes: "Turing trap in human-like AI"
+
+      - title: "Occupational, industry, and geographic exposure to artificial intelligence: A novel dataset and its potential uses"
+        authors: "Felten, E., Raj, M., & Seamans, R."
+        year: 2021
+        venue: "Strategic Management Journal"
+        url: "https://doi.org/10.1002/smj.3286"
+        notes: "AI exposure across occupations, industries, and geography"
+
+      - title: "Toward understanding the impact of artificial intelligence on labor"
+        authors: "Frank, M. R., Autor, D., Bessen, J. E., Brynjolfsson, E., Cebrian, M., Deming, D. J., Feldman, M., Groh, M., Lobo, J., Moro, E., Wang, D., Youn, H., & Rahwan, I."
+        year: 2019
+        venue: "Proceedings of the National Academy of Sciences"
+        url: "https://doi.org/10.1073/pnas.1900949116"
+        notes: "Understanding AI impact on labor markets"
+
+      - title: "The turing transformation: Artificial intelligence, intelligence augmentation, and skill premiums"
+        authors: "Goldfarb, A."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Turing transformation and skill premiums"
+
+      - title: "Artificial intelligence in service"
+        authors: "Huang, M.-H., & Rust, R. T."
+        year: 2018
+        venue: "Journal of Service Research"
+        url: "https://doi.org/10.1177/1094670517752459"
+        notes: "AI applications in service industries"
+
+      - title: "A strategic framework for artificial intelligence in marketing"
+        authors: "Huang, M.-H., & Rust, R. T."
+        year: 2021
+        venue: "Journal of the Academy of Marketing Science"
+        url: "https://doi.org/10.1007/s11747-020-00749-9"
+        notes: "Strategic framework for AI in marketing"
+
+      - title: "The short-term effects of generative artificial intelligence on employment: Evidence from an online labor market"
+        authors: "Hui, X., Reshef, O., & Zhou, L."
+        year: 2024
+        venue: "Organization Science"
+        url: "https://doi.org/10.1287/orsc.2023.18441"
+        notes: "Short-term employment effects of generative AI"
+
+      - title: "Artificial intelligence in disease diagnostics: A critical review and classification on the current state of research guiding future direction"
+        authors: "Mirbabaie, M., Stieglitz, S., & Frick, N. R. J."
+        year: 2021
+        venue: "Health Technology"
+        url: "https://doi.org/10.1007/s12553-021-00555-5"
+        notes: "AI in disease diagnostics review"
+
+      - title: "The simple macroeconomics of AI"
+        authors: "Acemoglu, D."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Macroeconomic framework for AI"
+
+      - title: "Labor- and capital-augmenting technical change"
+        authors: "Acemoglu, D."
+        year: 2003
+        venue: "Journal of the European Economic Association"
+        url: ""
+        notes: "Labor and capital-augmenting technical change"
+
+      - title: "Low-skill and high-skill automation"
+        authors: "Acemoglu, D., & Restrepo, P."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Automation across skill levels"
+
+      - title: "Tasks, automation, and the rise in US wage inequality"
+        authors: "Acemoglu, D., & Restrepo, P."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Automation and wage inequality"
+
+      - title: "Modeling automation"
+        authors: "Acemoglu, D., & Restrepo, P."
+        year: 2018
+        venue: "AEA Papers and Proceedings"
+        url: "https://doi.org/10.1257/pandp.20181020"
+        notes: "Theoretical modeling of automation"
+
+      - title: "The race between man and machine: Implications of technology for growth, factor shares, and employment"
+        authors: "Acemoglu, D., & Restrepo, P."
+        year: 2018
+        venue: "American Economic Review"
+        url: "https://doi.org/10.1257/aer.20160696"
+        notes: "Man-machine race and economic implications"
+
+      - title: "Automation and new tasks: How technology displaces and reinstates labor"
+        authors: "Acemoglu, D., & Restrepo, P."
+        year: 2019
+        venue: "Journal of Economic Perspectives"
+        url: "https://doi.org/10.1257/jep.33.2.3"
+        notes: "Technology displacement and labor reinstatement"
+
+      - title: "AI and growth: Where do we stand?"
+        authors: "Aghion, P., & Bunel, S."
+        year: 
+        venue: ""
+        url: ""
+        notes: "AI and economic growth assessment"
+
+      - title: "Why are there still so many jobs? The history and future of workplace automation"
+        authors: "Autor, D. H."
+        year: 2015
+        venue: "Journal of Economic Perspectives"
+        url: "https://doi.org/10.1257/jep.29.3.3"
+        notes: "Workplace automation and job persistence"
+
+      - title: "The microeconomic foundations of aggregate production functions"
+        authors: "Baqaee, D., & Farhi, E."
+        year: 2018
+        venue: "National Bureau of Economic Research"
+        url: "https://doi.org/10.3386/w25293"
+        notes: "Microeconomic foundations of production functions"
+
+      - title: "Artificial intelligence and the skill premium"
+        authors: "Bloom, D. E., Prettner, K., Saadaoui, J., & Veruete, M."
+        year: 
+        venue: ""
+        url: ""
+        notes: "AI impact on skill premium"
+
+      - title: "A mathematical framework for AI-human integration in work"
+        authors: "Celis, L. E., Huang, L., & Vishnoi, N. K."
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2505.23432"
+        notes: "Mathematical framework for AI-human work integration"
+
+      - title: "A canonical constant elasticity of substitution (CES) production function"
+        authors: "Choi, K.-H., & Shin, S."
+        year: 
+        venue: ""
+        url: ""
+        notes: "CES production function framework"
+
+      - title: "Algorithm, human, or the centaur: How to enhance clinical care?"
+        authors: "Dean, A., Orfanoudaki, A., Saghafian, S., Song, K., Chakkera, H. A., & Cook, C. B."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Centaur approach in clinical care"
+
+      - title: "Dynamics of labor and capital in AI vs. non-AI industries: A two-industry model analysis"
+        authors: "Huang, X."
+        year: 2024
+        venue: "PLOS One"
+        url: "https://doi.org/10.1371/journal.pone.0295150"
+        notes: "Labor and capital dynamics in AI industries"
+
+      - title: "Human-AI agency in the age of generative AI"
+        authors: "Krakowski, S."
+        year: 2025
+        venue: "Information and Organization"
+        url: "https://doi.org/10.1016/j.infoandorg.2025.100560"
+        notes: "Human-AI agency with generative AI"
+
+      - title: "Beyond human and machine: An architecture and methodology guideline for centaurian design"
+        authors: "Pareschi, R."
+        year: 2024
+        venue: "Sci"
+        url: "https://doi.org/10.3390/sci6040071"
+        notes: "Centaurian design guidelines"
+
+      - title: "Automation: Theory, evidence, and outlook"
+        authors: "Restrepo, P."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Comprehensive review of automation"
+
+      - title: "Effective generative AI: The human-algorithm centaur"
+        authors: "Saghafian, S., & Idan, L."
+        year: 2024
+        venue: ""
+        url: "https://doi.org/10.1162/99608f92.19d78478"
+        notes: "Centaur approach with generative AI"
+
+      - title: "Automation, AI & work"
+        authors: "Tyson, L. D., & Zysman, J."
+        year: 2022
+        venue: "Daedalus"
+        url: "https://doi.org/10.1162/daed_a_01914"
+        notes: "Automation, AI, and work relationships"
+
+      - title: "Does artificial intelligence affect the pattern of skill demand? Evidence from chinese manufacturing firms"
+        authors: "Xie, M., Ding, L., Xia, Y., Guo, J., Pan, J., & Wang, H."
+        year: 2021
+        venue: "Economic Modelling"
+        url: "https://doi.org/10.1016/j.econmod.2021.01.009"
+        notes: "AI impact on skill demand in Chinese manufacturing"
+
+      - title: "Tasks, automation, and the rise in U.S. wage inequality"
+        authors: "Acemoglu, D., & Restrepo, P."
+        year: 2022
+        venue: "Econometrica"
+        url: "https://doi.org/10.3982/ECTA19815"
+        notes: "Automation and U.S. wage inequality"
+
+      - title: "Text algorithms in economics"
+        authors: "Ash, E., & Hansen, S."
+        year: 2023
+        venue: "Annual Review of Economics"
+        url: "https://doi.org/10.1146/annurev-economics-082222-074352"
+        notes: "Text algorithms applications in economics"
+
+      - title: "Old moats for new models: Openness, control, and competition in generative AI"
+        authors: "Azoulay, P., Krieger, J., & Nagaraj, A."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Competition dynamics in generative AI"
+
+      - title: "Technological competition and the structure of the computer industry"
+        authors: "Bresnahan, T. F., & Greenstein, S."
+        year: 1999
+        venue: "The Journal of Industrial Economics"
+        url: "https://doi.org/10.1111/1467-6451.00088"
+        notes: "Technological competition in computer industry"
+
+      - title: "An incomplete contracts theory of information, technology and organization"
+        authors: "Brynjolfsson, E."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Incomplete contracts in technology and organization"
+
+      - title: "Artificial intelligence and the modern productivity paradox: A clash of expectations and statistics"
+        authors: "Brynjolfsson, E., Rock, D., & Syverson, C."
+        year: 2017
+        venue: "National Bureau of Economic Research"
+        url: "https://doi.org/10.3386/w24001"
+        notes: "AI productivity paradox analysis"
+
+      - title: "Governance and design of digital platforms: A review and future research directions on a meta-organization"
+        authors: "Chen, L., Tong, T. W., Tang, S., & Han, N."
+        year: 2022
+        venue: "Journal of Management"
+        url: "https://doi.org/10.1177/01492063211045023"
+        notes: "Digital platform governance and design"
+
+      - title: "An empirical analysis of intellectual property rights sharing in software development Outsourcing"
+        authors: "Chen, Y., Bharadwaj, A., & Goh, K.-Y."
+        year: 2017
+        venue: "MIS Quarterly"
+        url: "https://doi.org/10.25300/MISQ/2017/41.1.07"
+        notes: "IP rights sharing in software outsourcing"
+
+      - title: "R&D and productivity: Estimating endogenous productivity"
+        authors: "Doraszelski, U., & Jaumandreu, J."
+        year: 2013
+        venue: "Review of Economic Studies"
+        url: "https://doi.org/10.1093/restud/rdt011"
+        notes: "R&D and productivity estimation"
+
+      - title: "Text as data in economic analysis"
+        authors: "Hassan, T. A., Hollander, S., Kalyani, A., Van Lent, L., Schwedeler, M., & Tahoun, A."
+        year: 2025
+        venue: "Journal of Economic Perspectives"
+        url: "https://doi.org/10.1257/jep.20231365"
+        notes: "Text as data methods in economics"
+
+      - title: "Complementarity in human-AI collaboration: Concept, sources, and evidence"
+        authors: "Hemmer, P., Schemmer, M., Kühl, N., Vössing, M., & Satzger, G."
+        year: 2025
+        venue: "European Journal of Information Systems"
+        url: "https://doi.org/10.1080/0960085X.2025.2475962"
+        notes: "Human-AI complementarity concept and evidence"
+
+      - title: "Exploring information technology outsourcing relationships: Theory and practice"
+        authors: "Kern, T., & Willcocks, L."
+        year: 2000
+        venue: "Journal of Strategic Information Systems"
+        url: "https://doi.org/10.1016/S0963-8687(00)00048-2"
+        notes: "IT outsourcing relationships"
+
+      - title: "The dynamics of open-source contributors"
+        authors: "Lerner, J., Pathak, P. A., & Tirole, J."
+        year: 2006
+        venue: "American Economic Review"
+        url: "https://doi.org/10.1257/000282806777211874"
+        notes: "Open-source contributor dynamics"
+
+      - title: "Some simple economics of open source"
+        authors: "Lerner, J., & Tirole, J."
+        year: 2002
+        venue: "The Journal of Industrial Economics"
+        url: "https://doi.org/10.1111/1467-6451.00174"
+        notes: "Economics of open source software"
+
+      - title: "How types of goods and property rights jointly affect collective action"
+        authors: "Ostrom, E."
+        year: 2003
+        venue: "Journal of Theoretical Politics"
+        url: "https://doi.org/10.1177/0951692803015003002"
+        notes: "Property rights and collective action"
+
+      - title: "Quantifying the impact of AI on productivity and labor demand: Evidence from U.S. census microdata"
+        authors: "Alderucci, D., Branstetter, L., College, H., Hovy, E., & Runge, A."
+        year: 
+        venue: ""
+        url: ""
+        notes: "AI impact on productivity and labor demand"
+
+      - title: "Investment in human capital: A theoretical analysis"
+        authors: "Becker, G. S."
+        year: 1962
+        venue: "Journal of Political Economy"
+        url: "https://doi.org/10.1086/258724"
+        notes: "Classic work on human capital investment"
+
+      - title: "AI and the modern productivity paradox: A clash of expectations and statistics"
+        authors: "Brynjolfsson, E., Rock, D., & Syverson, C."
+        year: 
+        venue: ""
+        url: ""
+        notes: "AI productivity paradox"
+
+      - title: "Displacement or complementarity? The labor market impact of generative AI"
+        authors: "Chen, W. X., Srinivasan, S., & Zakerinia, S."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Generative AI labor market impact"
+
+      - title: "Incomplete contracts and control"
+        authors: "Hart, O."
+        year: 2017
+        venue: "American Economic Review"
+        url: "https://doi.org/10.1257/aer.107.7.1731"
+        notes: "Incomplete contracts and control rights"
+
+      - title: "Property rights and the nature of the firm"
+        authors: "Hart, O., & Moore, J."
+        year: 1990
+        venue: "Journal of Political Economy"
+        url: "https://doi.org/10.1086/261729"
+        notes: "Classic work on property rights and firm theory"
+
+      - title: "Complement or substitute? How AI increases the demand for human skills"
+        authors: "Mäkelä, E., & Stephany, F."
+        year: 
+        venue: ""
+        url: "https://doi.org/10.2139/ssrn.5153230"
+        notes: "AI as complement or substitute for human skills"
+
+      - title: "Augmenting or automating labor? The effect of AI development on new work, employment, and wages"
+        authors: "Marguerit, D."
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2503.19159"
+        notes: "AI development effects on work, employment, and wages"
+
+      - title: "The firm as a collection of assets"
+        authors: "Moore, J."
+        year: 1992
+        venue: "European Economic Review"
+        url: "https://doi.org/10.1016/0014-2921(92)90107-8"
+        notes: "Firm theory as collection of assets"
+
+      - title: "Human-generative AI collaboration enhances task performance but undermines human's intrinsic motivation"
+        authors: "Wu, S., Liu, Y., Ruan, M., Chen, S., & Xie, X.-Y."
+        year: 2025
+        venue: "Scientific Reports"
+        url: "https://doi.org/10.1038/s41598-025-98385-2"
+        notes: "Human-AI collaboration effects on performance and motivation"

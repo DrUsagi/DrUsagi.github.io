@@ -7,36 +7,144 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .reading-list-container {
+    margin-bottom: 2em;
+  }
+  
+  .reading-list-header {
+    cursor: pointer;
+    user-select: none;
+    padding: 1em;
+    background-color: #f8f9fa;
+    border: 2px solid #8B5CF6;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .reading-list-header:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .reading-list-header h2 {
+    margin: 0;
+    color: #8B5CF6;
+    font-size: 1.5em;
+  }
+  
+  .reading-list-toggle {
+    font-size: 1.2em;
+    color: #8B5CF6;
+    transition: transform 0.3s ease;
+    margin-left: 1em;
+  }
+  
+  .reading-list-content {
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.3s ease;
+    max-height: 10000px;
+    opacity: 1;
+  }
+  
+  .reading-list-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .reading-list-description {
+    color: #666;
+    margin-bottom: 1.5em;
+    font-style: italic;
+  }
+  
+  .reading-list-items {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1em;
+  }
+  
+  .reading-list-item {
+    margin-bottom: 1.5em;
+    padding-left: 1em;
+    border-left: 3px solid #8B5CF6;
+  }
+  
+  .reading-list-item strong {
+    font-size: 1.05em;
+  }
+  
+  .reading-list-number {
+    color: #8B5CF6;
+    margin-right: 0.5em;
+  }
+</style>
+
 This page contains curated reading lists organized by topic. These are papers, books, and articles that I find particularly valuable for my research and interests.
 
 {% for topic in site.data.reading-lists.topics %}
-  <h2 id="{{ topic.name | slugify }}">{{ topic.name }}</h2>
-  <p style="color: #666; margin-bottom: 1.5em;"><em>{{ topic.description }}</em></p>
-  
-  <ul style="list-style: none; padding-left: 0;">
-    {% assign sorted_items = topic.items | sort: 'title' %}
-    {% for item in sorted_items %}
-      <li style="margin-bottom: 1.5em; padding-left: 1em; border-left: 3px solid #8B5CF6;">
-        <strong style="font-size: 1.05em;"><span style="color: #8B5CF6; margin-right: 0.5em;">[{{ forloop.index }}]</span>{{ item.title }}</strong>
-        {% if item.authors %}
-          <br><span style="color: #555;">{{ item.authors }}</span>
-        {% endif %}
-        {% if item.venue %}
-          <br><span style="color: #777; font-size: 0.95em;"><em>{{ item.venue }}</em></span>
-        {% endif %}
-        {% if item.year %}
-          <span style="color: #555;">({{ item.year }})</span>
-        {% endif %}
-        {% if item.url %}
-          <br><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" style="color: #8B5CF6; text-decoration: none;">🔗 View</a>
-        {% endif %}
-        {% if item.notes %}
-          <br><span style="color: #666; font-style: italic; font-size: 0.95em;">{{ item.notes }}</span>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-  
-  <hr style="margin: 3em 0; border: none; border-top: 2px solid #eee;">
+  <div class="reading-list-container">
+    <div class="reading-list-header" onclick="toggleReadingList('{{ topic.name | slugify }}')">
+      <h2 id="{{ topic.name | slugify }}">{{ topic.name }}</h2>
+      <span class="reading-list-toggle" id="toggle-{{ topic.name | slugify }}">▼</span>
+    </div>
+    
+    <div class="reading-list-content" id="content-{{ topic.name | slugify }}">
+      <p class="reading-list-description"><em>{{ topic.description }}</em></p>
+      
+      <ul class="reading-list-items">
+        {% assign sorted_items = topic.items | sort: 'title' %}
+        {% for item in sorted_items %}
+          <li class="reading-list-item">
+            <strong><span class="reading-list-number">[{{ forloop.index }}]</span>{{ item.title }}</strong>
+            {% if item.authors %}
+              <br><span style="color: #555;">{{ item.authors }}</span>
+            {% endif %}
+            {% if item.venue %}
+              <br><span style="color: #777; font-size: 0.95em;"><em>{{ item.venue }}</em></span>
+            {% endif %}
+            {% if item.year %}
+              <span style="color: #555;">({{ item.year }})</span>
+            {% endif %}
+            {% if item.url %}
+              <br><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" style="color: #8B5CF6; text-decoration: none;">🔗 View</a>
+            {% endif %}
+            {% if item.notes %}
+              <br><span style="color: #666; font-style: italic; font-size: 0.95em;">{{ item.notes }}</span>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+      
+      <hr style="margin: 3em 0; border: none; border-top: 2px solid #eee;">
+    </div>
+  </div>
 {% endfor %}
+
+<script>
+  function toggleReadingList(topicId) {
+    const content = document.getElementById('content-' + topicId);
+    const toggle = document.getElementById('toggle-' + topicId);
+    
+    if (content.classList.contains('collapsed')) {
+      content.classList.remove('collapsed');
+      toggle.textContent = '▼';
+      toggle.style.transform = 'rotate(0deg)';
+    } else {
+      content.classList.add('collapsed');
+      toggle.textContent = '▶';
+      toggle.style.transform = 'rotate(0deg)';
+    }
+  }
+  
+  // 页面加载时，所有分类默认展开
+  document.addEventListener('DOMContentLoaded', function() {
+    // 所有分类默认展开，无需额外操作
+  });
+</script>
 
