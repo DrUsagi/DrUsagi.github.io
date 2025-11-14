@@ -81,3 +81,178 @@ topics:
         venue: "Management Science"
         url: "https://doi.org/10.1287/mnsc.2021.00588"
         notes: "AI-human teaming with varying worker experience"
+
+      - title: "Incentives, framing, and reliance on algorithmic advice: An experimental study"
+        authors: "Greiner, B., Grünwald, P., Lindner, T., Lintner, G., & Wiernsperger, M."
+        year: 2025
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.2022.02777"
+        notes: "Experimental study on incentives and framing effects on algorithmic advice reliance"
+
+      - title: "1 + 1 > 2? Information, Humans, and Machines"
+        authors: "Lu, T., & Zhang, Y."
+        year: 2024
+        venue: "Information Systems Research"
+        url: "https://doi.org/10.1287/isre.2023.0305"
+        notes: "Synergistic effects of combining human and machine information processing"
+
+      - title: "Two-stage learning to defer with multiple experts"
+        authors: "Mao, A., Mohri, C., Mohri, M., & Zhong, Y."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Learning to defer framework with multiple experts"
+
+      - title: "Designing human-AI collaboration: A sufficient-statistic approach"
+        authors: "Agarwal, N., Moehring, A., & Wolitzky, A."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Sufficient-statistic approach to designing human-AI collaboration"
+
+      - title: "Trust in automation: Integrating empirical evidence on factors that influence trust"
+        authors: "Hoff, K. A., & Bashir, M."
+        year: 2015
+        venue: "Human Factors: The Journal of the Human Factors and Ergonomics Society"
+        url: "https://doi.org/10.1177/0018720814547570"
+        notes: "Comprehensive review of factors influencing trust in automation"
+
+      - title: "Explaining Data-Driven Decisions made by AI Systems: The Counterfactual Approach"
+        authors: "Fernández-Loría, C., Provost, F., & Han, X."
+        year: 2022
+        venue: "MIS Quarterly"
+        url: "https://doi.org/10.25300/MISQ/2022/16749"
+        notes: "Counterfactual approach to explaining AI-driven decisions"
+
+      - title: "AI-teaming: Redefining collaboration in the digital era"
+        authors: "Schmutz, J. B., Outland, N., Kerstan, S., Georganta, E., & Ulfert, A.-S."
+        year: 2024
+        venue: "Current Opinion in Psychology"
+        url: "https://doi.org/10.1016/j.copsyc.2024.101837"
+        notes: "Review on AI-teaming and collaboration in digital era"
+
+      - title: "My advisor, her AI, and me: Evidence from a field experiment on human–AI collaboration and investment decisions"
+        authors: "Yang, C. (Liu), Bauer, K., Li, X., & Hinz, O."
+        year: 2025
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.2022.03918"
+        notes: "Field experiment on human-AI collaboration in investment decisions"
+
+      - title: "Human-robot interactions in investment decisions"
+        authors: "Bianchi, M., & Brière, M."
+        year: 2024
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.2022.03886"
+        notes: "Human-robot interactions in investment context"
+
+      - title: "Complementarity in Human-AI Collaboration: Concept, Sources, and Evidence"
+        authors: "Hemmer, P., Schemmer, M., Kühl, N., Vössing, M., & Satzger, G."
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2404.00029"
+        notes: "Conceptual framework on complementarity in human-AI collaboration"
+
+      - title: "A new multiple decisions fusion rule for targets detection in multiple sensors distributed detection systems with data fusion"
+        authors: "Aziz, A. M."
+        year: 2014
+        venue: "Information Fusion"
+        url: "https://doi.org/10.1016/j.inffus.2013.09.002"
+        notes: "Multiple decisions fusion rule for distributed detection systems"
+
+      - title: "Beware explanations from AI in health care"
+        authors: "Babic, B., Gerke, S., Evgeniou, T., & Cohen, I. G."
+        year: 2021
+        venue: "Science"
+        url: "https://doi.org/10.1126/science.abg1834"
+        notes: "Critical perspective on AI explanations in healthcare"
+
+      - title: "Substituting human decision-making with machine learning: Implications for organizational learning"
+        authors: "Balasubramanian, N., Ye, Y., & Xu, M."
+        year: 2022
+        venue: "Academy of Management Review"
+        url: "https://doi.org/10.5465/amr.2019.0470"
+        notes: "Implications of ML substitution for organizational learning"
+
+      - title: "What can machine learning do? Workforce implications"
+        authors: "Brynjolfsson, E., & Mitchell, T."
+        year: 2017
+        venue: "Science"
+        url: "https://doi.org/10.1126/science.aap8062"
+        notes: "Workforce implications of machine learning capabilities"
+
+      - title: "From Man vs. Machine to Man + Machine: The art and AI of stock analyses"
+        authors: "Cao, S., Jiang, W., Wang, J., & Yang, B."
+        year: 2024
+        venue: "Journal of Financial Economics"
+        url: "https://doi.org/10.1016/j.jfineco.2024.103910"
+        notes: "Human-AI collaboration in stock analysis"
+
+      - title: "Why deep-learning AIs are so easy to fool"
+        authors: "Heaven, D."
+        year: 2019
+        venue: "Nature"
+        url: "https://doi.org/10.1038/d41586-019-03013-5"
+        notes: "Vulnerabilities of deep learning systems"
+
+      - title: "Design principles for artificial intelligence-augmented decision making: An action design research study"
+        authors: "Herath Pathirannehelage, S., Shrestha, Y. R., & Von Krogh, G."
+        year: 2025
+        venue: "European Journal of Information Systems"
+        url: "https://doi.org/10.1080/0960085X.2024.2330402"
+        notes: "Design principles for AI-augmented decision making"
+
+      - title: "Deep learning"
+        authors: "LeCun, Y., Bengio, Y., & Hinton, G."
+        year: 2015
+        venue: "Nature"
+        url: "https://doi.org/10.1038/nature14539"
+        notes: "Foundational review on deep learning"
+
+      - title: "Ensemble approaches for regression: A survey"
+        authors: "Mendes-Moreira, J., Soares, C., Jorge, A. M., & Sousa, J. F. D."
+        year: 2012
+        venue: "ACM Computing Surveys"
+        url: "https://doi.org/10.1145/2379776.2379786"
+        notes: "Survey on ensemble methods for regression"
+
+      - title: "Performance benefits of reciprocal vicarious learning in teams"
+        authors: "Myers, C. G."
+        year: 2021
+        venue: "Academy of Management Journal"
+        url: "https://doi.org/10.5465/amj.2018.0875"
+        notes: "Vicarious learning in team contexts"
+
+      - title: "An alliance of humans and machines for machine learning: Hybrid intelligent systems and their design principles"
+        authors: "Ostheimer, J., Chowdhury, S., & Iqbal, S."
+        year: 2021
+        venue: "Technology in Society"
+        url: "https://doi.org/10.1016/j.techsoc.2021.101647"
+        notes: "Hybrid intelligent systems design principles"
+
+      - title: "Artificial Intelligence and Management: The Automation–Augmentation Paradox"
+        authors: "Raisch, S., & Krakowski, S."
+        year: 2021
+        venue: "Academy of Management Review"
+        url: "https://doi.org/10.5465/amr.2018.0072"
+        notes: "Automation-augmentation paradox in AI and management"
+
+      - title: "Using Augmentation-Based AI Tool at Work: A Daily Investigation of Learning-Based Benefit and Challenge"
+        authors: "Shao, Y., Huang, C., Song, Y., Wang, M., Song, Y. H., & Shao, R."
+        year: 2024
+        venue: "Journal of Management"
+        url: "https://doi.org/10.1177/01492063241266503"
+        notes: "Daily investigation of AI augmentation benefits and challenges at work"
+
+      - title: "Grandmaster level in StarCraft II using multi-agent reinforcement learning"
+        authors: "Vinyals, O., Babuschkin, I., Czarnecki, W. M., Mathieu, M., Dudzik, A., Chung, J., Choi, D. H., Powell, R., Ewalds, T., Georgiev, P., Oh, J., Horgan, D., Kroiss, M., Danihelka, I., Huang, A., Sifre, L., Cai, T., Agapiou, J. P., Jaderberg, M., … Silver, D."
+        year: 2019
+        venue: "Nature"
+        url: "https://doi.org/10.1038/s41586-019-1724-z"
+        notes: "Multi-agent reinforcement learning in complex games"
+
+      - title: "A comprehensive survey on transfer learning"
+        authors: "Zhuang, F., Qi, Z., Duan, K., Xi, D., Zhu, Y., Zhu, H., Xiong, H., & He, Q."
+        year: 2020
+        venue: "Proceedings of the IEEE"
+        url: "https://doi.org/10.1109/JPROC.2020.3004555"
+        notes: "Comprehensive survey on transfer learning"
