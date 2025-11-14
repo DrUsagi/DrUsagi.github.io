@@ -9,16 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-**Contact Information**  
-490 Lindbergh PL NE, Apt 531 ⋄ Atlanta, GA, 30324  
-+1 470 756 1373 ⋄ swang83@gsu.edu
-
 Education
 ======
-* **PhD in Computer Information Systems**, Georgia State University (Atlanta, USA), September 2024 - December 2029 (Expected)
+* **PhD in Computer Information Systems**, J.Mack Robinson College of Business, Georgia State University (Atlanta, USA), September 2024 - December 2029 (Expected)
 * **MBA**, University of Hong Kong (Hong Kong SAR), September 2021 - December 2023
-* **Master of Arts in Statistics**, Columbia University (New York City, USA), September 2013 - February 2015
-* **Bachelor of Science in Statistics**, Sichuan University (Chengdu, China), September 2008 - July 2013
+* **MA Statistics**, Columbia University (New York City, USA), September 2013 - February 2015
+* **BSc in Statistics**, Sichuan University (Chengdu, China), September 2008 - July 2013
 
 Research Interests
 ======
@@ -55,22 +51,3 @@ Data Analytics Skills
 ======
 * **Programming Languages**: Python (with PyTorch), R, Mathematica, Lean 4
 * **Software & Tools**: LaTeX, Excel, PowerPoint, SPSS, SAS, Rapidminer, Tableau
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
