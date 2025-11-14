@@ -13,7 +13,7 @@ Education
 ======
 * **PhD in Computer Information Systems**, J.Mack Robinson College of Business, Georgia State University (Atlanta, USA), September 2024 - December 2029 (Expected)
 * **MBA**, University of Hong Kong (Hong Kong SAR), September 2021 - December 2023
-* **MA Statistics**, Columbia University (New York City, USA), September 2013 - February 2015
+* **MA in Statistics**, Columbia University (New York City, USA), September 2013 - February 2015
 * **BSc in Statistics**, Sichuan University (Chengdu, China), September 2008 - July 2013
 
 Research Interests
