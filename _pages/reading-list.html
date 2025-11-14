@@ -16,7 +16,7 @@ This page contains curated reading lists organized by topic. These are papers, b
   <ul style="list-style: none; padding-left: 0;">
     {% for item in topic.items %}
       <li style="margin-bottom: 1.5em; padding-left: 1em; border-left: 3px solid #8B5CF6;">
-        <strong style="font-size: 1.05em;">{{ item.title }}</strong>
+        <strong style="font-size: 1.05em;"><span style="color: #8B5CF6; margin-right: 0.5em;">[{{ forloop.index }}]</span>{{ item.title }}</strong>
         {% if item.authors %}
           <br><span style="color: #555;">{{ item.authors }}</span>
         {% endif %}

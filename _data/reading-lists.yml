@@ -256,3 +256,69 @@ topics:
         venue: "Proceedings of the IEEE"
         url: "https://doi.org/10.1109/JPROC.2020.3004555"
         notes: "Comprehensive survey on transfer learning"
+
+      - title: "Does the whole exceed its parts? The effect of AI explanations on complementary team performance"
+        authors: "Bansal, G., Wu, T., Zhou, J., Fok, R., Nushi, B., Kamar, E., Ribeiro, M. T., & Weld, D. S."
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2006.14779"
+        notes: "Effect of AI explanations on complementary team performance"
+
+      - title: "GPT-4 assistance for improvement of physician performance on patient care tasks: A randomized controlled trial"
+        authors: "Goh, E., Gallo, R. J., Strong, E., Weng, Y., Kerman, H., Freed, J. A., Cool, J. A., Kanjee, Z., Lane, K. P., Parsons, A. S., Ahuja, N., Horvitz, E., Yang, D., Milstein, A., Olson, A. P. J., Hom, J., Chen, J. H., & Rodman, A."
+        year: 2025
+        venue: "Nature Medicine"
+        url: "https://doi.org/10.1038/s41591-024-03456-y"
+        notes: "Randomized controlled trial on GPT-4 assistance for physician performance"
+
+      - title: "Disparate interactions: An algorithm-in-the-loop analysis of fairness in risk assessments"
+        authors: "Green, B., & Chen, Y."
+        year: 2019
+        venue: "Proceedings of the Conference on Fairness, Accountability, and Transparency"
+        url: "https://doi.org/10.1145/3287560.3287563"
+        notes: "Algorithm-in-the-loop analysis of fairness in risk assessments"
+
+      - title: "The value of information in human-AI decision-making"
+        authors: "Guo, Z., Wu, Y., Hartline, J., & Hullman, J."
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2502.06152"
+        notes: "Value of information in human-AI decision-making contexts"
+
+      - title: "To trust or not to trust a classifier"
+        authors: "Jiang, H., Kim, B., Guan, M. Y., & Gupta, M."
+        year: 2018
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.1805.11783"
+        notes: "Trust in classifier systems"
+
+  - name: "LLM Surveys"
+    description: "Comprehensive surveys on large language models and their applications"
+    items:
+      - title: "Agent AI: Surveying the Horizons of Multimodal Interaction"
+        authors: "Durante, Z., Huang, Q., Wake, N., Gong, R., Park, J. S., Sarkar, B., Taori, R., Noda, Y., Terzopoulos, D., Choi, Y., Ikeuchi, K., Vo, H., Fei-Fei, L., & Gao, J."
+        year: 2024
+        venue: "arXiv"
+        url: "http://arxiv.org/abs/2401.03568"
+        notes: "Survey on multimodal interaction in agent AI"
+
+      - title: "Large language models: A survey"
+        authors: "Minaee, S., Mikolov, T., Nikzad, N., Chenaghlu, M., Socher, R., Amatriain, X., & Gao, J."
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2402.06196"
+        notes: "Comprehensive survey on large language models"
+
+      - title: "The Rise and Potential of Large Language Model Based Agents: A Survey"
+        authors: "Xi, Z., Chen, W., Guo, X., He, W., Ding, Y., Hong, B., Zhang, M., Wang, J., Jin, S., Zhou, E., Zheng, R., Fan, X., Wang, X., Xiong, L., Zhou, Y., Wang, W., Jiang, C., Zou, Y., Liu, X., … Gui, T."
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2309.07864"
+        notes: "Survey on LLM-based agents and their potential"
+
+      - title: "A survey of large language models"
+        authors: "Zhao, W. X., Zhou, K., Li, J., Tang, T., Wang, X., Hou, Y., Min, Y., Zhang, B., Zhang, J., Dong, Z., Du, Y., Yang, C., Chen, Y., Chen, Z., Jiang, J., Ren, R., Li, Y., Tang, X., Liu, Z., … Wen, J.-R."
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2303.18223"
+        notes: "Comprehensive survey of large language models"
