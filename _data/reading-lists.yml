@@ -292,6 +292,48 @@ topics:
         url: "https://doi.org/10.48550/arXiv.1805.11783"
         notes: "Trust in classifier systems"
 
+      - title: "The crowd classification problem: Social dynamics of binary-choice accuracy"
+        authors: "Becker, J. A., Guilbeault, D., & Smith, E. B."
+        year: 2022
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.2021.4127"
+        notes: "Social dynamics of crowd classification and binary-choice accuracy"
+
+      - title: "The crowdless future? Generative AI and creative problem-solving"
+        authors: "Boussioux, L., Lane, J. N., Zhang, M., Jacimovic, V., & Lakhani, K. R."
+        year: 2024
+        venue: "Organization Science"
+        url: "https://doi.org/10.1287/orsc.2023.18430"
+        notes: "Generative AI impact on crowd-based creative problem-solving"
+
+      - title: "Design of decision-making organizations"
+        authors: "Christensen, M., & Knudsen, T."
+        year: 2010
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.1090.1096"
+        notes: "Organizational design for decision-making"
+
+      - title: "Theory Is All You Need: AI, Human Cognition, and Causal Reasoning"
+        authors: "Felin, T., & Holweg, M."
+        year: 2024
+        venue: "Strategy Science"
+        url: "https://doi.org/10.1287/stsc.2024.0189"
+        notes: "AI, human cognition, and causal reasoning in strategic contexts"
+
+      - title: "Eliciting human judgment for prediction algorithms"
+        authors: "Ibrahim, R., Kim, S.-H., & Tong, J."
+        year: 2021
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.2020.3856"
+        notes: "Eliciting human judgment to improve prediction algorithms"
+
+      - title: "Vicarious learning without knowledge differentials"
+        authors: "Park, S., & Puranam, P."
+        year: 2024
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.2023.4842"
+        notes: "Vicarious learning mechanisms in organizational contexts"
+
   - name: "LLM Surveys"
     description: "Comprehensive surveys on large language models and their applications"
     items:
