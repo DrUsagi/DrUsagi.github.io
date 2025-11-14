@@ -19,20 +19,18 @@ My research focuses on two main areas:
 
 2. **Impact of Generative AI (GenAI)** within the corporate finance setting
 
-I employ a diverse methodological toolkit, including:
-- Analytical modeling
-- Design science
-- Experimental methods
+I employ a diverse methodological toolkit, including: Analytical modeling, Design science, and Experimental methods.
 
 Background
 ======
-Prior to my acedmic journey, I spent seven years working in investment banking and private equity. I learned a lot about financial modeling and analysis, but here's the thing: I wasn't exactly crushing it in the investment world 😅. It wasn't because I couldn't handle the math—I'm actually pretty good with numbers 📊. The real problem? It was more about human psychology than financial formulas. That realization sparked my interest in behavioral research, which is now a big part of my work!
+Before diving into academia, I spent seven years working in investment banking and private equity. The longer I worked, the more I realized: what really fascinated me wasn't the finance and investing itself, but rather the assets behind those investment decisions and the transformative technologies driving them. I became captivated by how technology innovations were reshaping the world and revolutionizing the business landscape. That's what led me to shift my focus from finance to studying how IT and AI technologies impact organizations and society—which is now at the heart of my research!
 
 Beyond Academia
 ======
 When I'm not immersed in research, I enjoy:
 - **Photography**: I'm a professional photographer
 - **Motorcycling**: I'm a semi-professional motorcycle rider
+- **Music**: I love playing the violin and accordion, and I'm passionate about music from all around the world
 - **Animals**: I absolutely love cats and dogs! If your furry friends are open to making new friends, I'd be delighted to introduce them to my pets.
 
 Collaboration
