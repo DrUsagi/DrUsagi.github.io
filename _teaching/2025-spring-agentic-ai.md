@@ -1,7 +1,7 @@
 ---
-title: "Agentic AI"
+title: "A Short Lecture about Agentic AI"
 collection: teaching
-type: "Graduate course"
+type: "Graduate Course Workshop"
 permalink: /teaching/2025-spring-agentic-ai
 venue: "J.Mack Robinson College of Business, Georgia State University"
 date: 2025-01-15
@@ -31,5 +31,3 @@ By the end of this course, students will be able to:
 4. Apply agentic AI concepts to solve real-world problems
 
 ## Course Materials
-
-[Download Lecture Slides (PDF)](/files/lecture-about-agentic-ai.pdf)
