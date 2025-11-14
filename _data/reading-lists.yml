@@ -2,35 +2,82 @@
 # Each topic can have multiple reading items with title, author, year, url, and notes
 
 topics:
-  - name: "Human-AI Collaboration"
-    description: "Papers and books on human-AI collaboration, ensembles, and delegation"
+  - name: "Human-AI Ensembles"
+    description: "Research on human-AI collaboration, ensembles, delegation, and complementarity"
     items:
-      - title: "Example Paper Title 1"
-        authors: "Author 1, Author 2"
-        year: 2024
-        url: "https://example.com/paper1"
-        notes: "Important paper on human-AI ensembles"
-      - title: "Example Paper Title 2"
-        authors: "Author 3"
+      - title: "The Next Generation of Research on IS Use: A Theoretical Framework of Delegation to and from Agentic IS Artifacts"
+        authors: "Baird, A., & Maruping, L. M."
+        year: 2021
+        venue: "MIS Quarterly"
+        url: "https://doi.org/10.25300/MISQ/2021/15882"
+        notes: "Theoretical framework of delegation to and from agentic IS artifacts"
+
+      - title: "Fitting feature-dependent markov chains"
+        authors: "Barratt, S., & Boyd, S."
         year: 2023
-        url: "https://example.com/paper2"
-        notes: "Key insights on delegation patterns"
+        venue: "Journal of Global Optimization"
+        url: "https://doi.org/10.1007/s10898-022-01198-0"
+        notes: ""
 
-  - name: "Generative AI in Finance"
-    description: "Research on the impact of GenAI in corporate finance settings"
-    items:
-      - title: "Example Paper Title 3"
-        authors: "Author 4, Author 5"
+      - title: "Human-AI ensembles: When can they work?"
+        authors: "Choudhary, V., Marchetti, A., Shrestha, Y. R., & Puranam, P."
+        year: 2025
+        venue: "Journal of Management"
+        url: "https://doi.org/10.1177/01492063231194968"
+        notes: "Key paper on when human-AI ensembles can be effective"
+
+      - title: "Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err"
+        authors: "Dietvorst, B. J., Simmons, J. P., & Massey, C."
+        year: 2015
+        venue: "Journal of Experimental Psychology: General"
+        url: "https://doi.org/10.1037/xge0000033"
+        notes: "Foundational work on algorithm aversion"
+
+      - title: "Overcoming Algorithm Aversion: People Will Use Imperfect Algorithms If They Can (Even Slightly) Modify Them"
+        authors: "Dietvorst, B. J., Simmons, J. P., & Massey, C."
+        year: 2018
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.2016.2643"
+        notes: "How allowing modifications can overcome algorithm aversion"
+
+      - title: "Human trust in artificial intelligence: Review of empirical research"
+        authors: "Glikson, E., & Woolley, A. W."
+        year: 2020
+        venue: "Academy of Management Annals"
+        url: "https://doi.org/10.5465/annals.2018.0057"
+        notes: "Comprehensive review of trust in AI"
+
+      - title: "When and how artificial intelligence augments employee creativity"
+        authors: "Jia, N., Luo, X., Fang, Z., & Liao, C."
         year: 2024
-        url: "https://example.com/paper3"
-        notes: "GenAI applications in financial forecasting"
+        venue: "Academy of Management Journal"
+        url: "https://doi.org/10.5465/amj.2022.0426"
+        notes: "AI augmentation of human creativity"
 
-  - name: "Behavioral Economics"
-    description: "Behavioral factors in decision-making and investment"
-    items:
-      - title: "Example Book Title 1"
-        authors: "Author 6"
+      - title: "An integrative perspective on algorithm aversion and appreciation in decision-making"
+        authors: "Jussupow, E., Benbasat, I., & Heinzl, A."
+        year: 2024
+        venue: "MIS Quarterly"
+        url: "https://doi.org/10.25300/MISQ/2024/18512"
+        notes: "Integrative view on algorithm aversion and appreciation"
+
+      - title: "Bayesian modeling of human–AI complementarity"
+        authors: "Steyvers, M., Tejeda, H., Kerrigan, G., & Smyth, P."
         year: 2022
-        url: "https://example.com/book1"
-        notes: "Classic text on behavioral biases"
+        venue: "Proceedings of the National Academy of Sciences"
+        url: "https://doi.org/10.1073/pnas.2111547119"
+        notes: "Bayesian approach to modeling human-AI complementarity"
 
+      - title: "When combinations of humans and AI are useful: A systematic review and meta-analysis"
+        authors: "Vaccaro, M., Almaatouq, A., & Malone, T."
+        year: 2024
+        venue: "Nature Human Behaviour"
+        url: "https://doi.org/10.1038/s41562-024-02024-1"
+        notes: "Systematic review and meta-analysis of human-AI combinations"
+
+      - title: "Friend or foe? Teaming between artificial intelligence and workers with variation in experience"
+        authors: "Wang, W., Gao, G. (Gordon), & Agarwal, R."
+        year: 2023
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.2021.00588"
+        notes: "AI-human teaming with varying worker experience"

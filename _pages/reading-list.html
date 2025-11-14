@@ -20,6 +20,9 @@ This page contains curated reading lists organized by topic. These are papers, b
         {% if item.authors %}
           <br><span style="color: #555;">{{ item.authors }}</span>
         {% endif %}
+        {% if item.venue %}
+          <br><span style="color: #777; font-size: 0.95em;"><em>{{ item.venue }}</em></span>
+        {% endif %}
         {% if item.year %}
           <span style="color: #555;">({{ item.year }})</span>
         {% endif %}
