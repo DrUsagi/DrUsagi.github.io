@@ -519,6 +519,104 @@ topics:
         url: "https://doi.org/10.48550/arXiv.2303.18223"
         notes: "Comprehensive survey of large language models"
 
+      - title: "AI–human hybrids for marketing research: Leveraging large language models (LLMs) as collaborators"
+        authors: "Arora, N., Chakraborty, I., & Nishimura, Y."
+        year: 2025
+        venue: "Journal of Marketing"
+        url: "https://doi.org/10.1177/00222429241276529"
+        notes: "LLMs as collaborators in marketing research"
+
+      - title: "ChatGPT for textual analysis? How to use generative LLMs in accounting research"
+        authors: "De Kok, T."
+        year: 2025
+        venue: "Management Science"
+        url: "https://doi.org/10.1287/mnsc.2023.03253"
+        notes: "Using generative LLMs in accounting research"
+
+      - title: "LLM social simulations are a promising research method"
+        authors: "Anthis, J. R., Liu, R., Richardson, S. M., Kozlowski, A. C., Koch, B., Evans, J., Brynjolfsson, E., & Bernstein, M."
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2504.02234"
+        notes: "LLM social simulations as research method"
+
+      - title: "Predicting Results of Social Science Experiments Using Large Language Models"
+        authors: "Hewitt, L., Ashokkumar, A., Ghezae, I., & Willer, R."
+        year: 
+        venue: ""
+        url: ""
+        notes: "LLM predictions in social science experiments"
+
+      - title: "General social agents"
+        authors: "Manning, B. S., & Horton, J. J."
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2508.17407"
+        notes: "General social agents framework"
+
+      - title: "Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions"
+        authors: "Mathur, L., Liang, P. P., & Morency, L.-P."
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2404.11023"
+        notes: "Social intelligence in AI agents"
+
+      - title: "Generative agent simulations of 1,000 people"
+        authors: "Park, J. S., Zou, C. Q., Shaw, A., Hill, B. M., Cai, C., Morris, M. R., Willer, R., Liang, P., & Bernstein, M. S."
+        year: 
+        venue: ""
+        url: ""
+        notes: "Large-scale generative agent simulations"
+
+      - title: "Multi-agents are social groups: Investigating social influence of multiple agents in human-agent interactions"
+        authors: "Song, T., Tan, Y., Zhu, Z., Feng, Y., & Lee, Y.-C."
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2411.04578"
+        notes: "Multi-agent social influence in human-agent interactions"
+
+      - title: "Large Language Model based Multi-Agents: A Survey of Progress and Challenges"
+        authors: "Guo, T., Chen, X., Wang, Y., Chang, R., Pei, S., Chawla, N. V., Wiest, O., & Zhang, X."
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arXiv.2402.01680"
+        notes: "Survey on LLM-based multi-agents"
+
+      - title: "Automated Design of Agentic Systems"
+        authors: "Hu, S., Lu, C., & Clune, J."
+        year: 2024
+        venue: "arXiv"
+        url: "http://arxiv.org/abs/2408.08435"
+        notes: "Automated design of agentic systems"
+
+      - title: "Rise of Machine Agency: A Framework for Studying the Psychology of Human–AI Interaction (HAII)"
+        authors: "Sundar, S. S."
+        year: 2020
+        venue: "Journal of Computer-Mediated Communication"
+        url: "https://doi.org/10.1093/jcmc/zmz026"
+        notes: "Framework for human-AI interaction psychology"
+
+      - title: "How Nature readers are using ChatGPT"
+        authors: "Owens, B."
+        year: 2023
+        venue: "Nature"
+        url: "https://doi.org/10.1038/d41586-023-00500-8"
+        notes: "ChatGPT usage by Nature readers"
+
+      - title: "ChatGPT: Five priorities for research"
+        authors: "Van Dis, E. A. M., Bollen, J., Zuidema, W., Van Rooij, R., & Bockting, C. L."
+        year: 2023
+        venue: "Nature"
+        url: "https://doi.org/10.1038/d41586-023-00288-7"
+        notes: "Research priorities for ChatGPT"
+
+      - title: "A Brief Overview of ChatGPT: The History, Status Quo and Potential Future Development"
+        authors: "Wu, T., He, S., Liu, J., Sun, S., Liu, K., Han, Q.-L., & Tang, Y."
+        year: 2023
+        venue: "IEEE/CAA Journal of Automatica Sinica"
+        url: "https://doi.org/10.1109/JAS.2023.123618"
+        notes: "Overview of ChatGPT history and development"
+
   - name: "Corporate Finance"
     description: "Research on corporate finance, tournament incentives, and firm policies"
     items:
