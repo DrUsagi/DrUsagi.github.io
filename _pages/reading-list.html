@@ -46,15 +46,14 @@ author_profile: true
   .reading-list-content {
     overflow: hidden;
     transition: max-height 0.5s ease, opacity 0.3s ease, margin 0.3s ease, padding 0.3s ease;
-    max-height: 999999px;
     opacity: 1;
   }
   
   .reading-list-content.collapsed {
-    max-height: 0;
+    max-height: 0 !important;
     opacity: 0;
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
   }
   
   .reading-list-description {
@@ -131,37 +130,37 @@ This page contains curated reading lists organized by topic. These are papers, b
     const content = document.getElementById('content-' + topicId);
     const toggle = document.getElementById('toggle-' + topicId);
     
+    if (!content || !toggle) {
+      return;
+    }
+    
     if (content.classList.contains('collapsed')) {
-      // 展开：先移除collapsed类，然后设置实际高度
-      content.classList.remove('collapsed');
-      // 获取内容的实际高度
+      // 展开：先获取实际高度，设置maxHeight，然后移除collapsed类
       const scrollHeight = content.scrollHeight;
       content.style.maxHeight = scrollHeight + 'px';
-      // 等待动画完成后，移除maxHeight限制，让内容自然显示
-      setTimeout(() => {
-        content.style.maxHeight = '999999px';
-      }, 500);
+      content.classList.remove('collapsed');
       toggle.textContent = '▼';
+      // 等待动画完成后，移除maxHeight限制
+      setTimeout(() => {
+        if (!content.classList.contains('collapsed')) {
+          content.style.maxHeight = '';
+        }
+      }, 500);
     } else {
-      // 折叠：先设置当前高度，然后添加collapsed类
+      // 折叠：先设置当前高度，强制重排，然后添加collapsed类
       const currentHeight = content.scrollHeight;
       content.style.maxHeight = currentHeight + 'px';
-      // 强制重排
-      content.offsetHeight;
+      // 强制重排以确保高度被应用
+      void content.offsetHeight;
+      // 添加collapsed类，CSS会处理max-height: 0
       content.classList.add('collapsed');
-      content.style.maxHeight = '0px';
       toggle.textContent = '▶';
     }
   }
   
-  // 页面加载时，初始化所有分类的max-height
+  // 页面加载时，初始化所有分类
   document.addEventListener('DOMContentLoaded', function() {
-    {% for topic in site.data.reading-lists.topics %}
-      const content{{ forloop.index }} = document.getElementById('content-{{ topic.name | slugify }}');
-      if (content{{ forloop.index }}) {
-        content{{ forloop.index }}.style.maxHeight = '999999px';
-      }
-    {% endfor %}
+    // 所有分类默认展开，无需额外操作
   });
 </script>
 
