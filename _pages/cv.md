@@ -10,14 +10,14 @@ redirect_from:
 {% include base_path %}
 
 <div style="text-align: center; margin-bottom: 2em;">
-  <a href="{{ base_path }}/files/2025_Academic_CV.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #8B5CF6; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+  <a href="{{ base_path }}/files/2026_Academic_CV.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #8B5CF6; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
     📄 Download CV (PDF)
   </a>
 </div>
 
 Education
 ======
-* **PhD in Computer Information Systems**, J.Mack Robinson College of Business, Georgia State University (Atlanta, USA), September 2024 - December 2029 (Expected)
+* **PhD in Computer Information Systems**, J.Mack Robinson College of Business, Georgia State University (Atlanta, USA), September 2024 - Dec 2028 (Expected)
 * **MBA**, University of Hong Kong (Hong Kong SAR), September 2021 - December 2023
 * **MA in Statistics**, Columbia University (New York City, USA), September 2013 - February 2015
 * **BSc in Statistics**, Sichuan University (Chengdu, China), September 2008 - July 2013
@@ -32,6 +32,12 @@ Journal Articles
 
 Working Papers
 ======
+* **Lixin Huang, Harley E. Ryan, and Shaohui Wang** (alphabetical author order). Who Controls the Model? AI Control Rights and Underinvestment.
+  * Presented at AOM Annual Meeting 2026
+* **Shaohui Wang**. Positive-unlabeled learning without instruments: identified sets for latent-class moments under selected-at-random labeling. [http://dx.doi.org/10.2139/ssrn.6664249](http://dx.doi.org/10.2139/ssrn.6664249)
+  * Under Review at Economics Letters
+* **Shaohui Wang, Balasubramaniam Ramesh, Xinyu Fu**. An Accountable Control Layer for Compassionate LLM: A Design Science Approach.
+  * Rejected at Information Systems Research, Preparing for Journal Submission
 * **Shaohui Wang**. Optimizing Business Forecasting through Human-AI Decision Fusion: A Theoretical Framework and Simulation Study.
   * Presented at ICIS 2025
 
