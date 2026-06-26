@@ -28,7 +28,7 @@ My research focuses on Human-AI Collaboration (including ensembles and delegatio
 
 Journal Articles
 ======
-* **Shaohui Wang**. Hope, signals, and silicon: A game-theoretic model of the pre-doctoral academic labor market in the age of AI. *Research Policy*, 55(8), 105568. [https://doi.org/10.1016/j.respol.2026.105568](https://doi.org/10.1016/j.respol.2026.105568)
+* **Shaohui Wang**. Hope, signals, and silicon: A game-theoretic model of the pre-doctoral academic labor market in the age of AI. *Research Policy* (FT50, ABS 4*), 55(8), 105568. [https://doi.org/10.1016/j.respol.2026.105568](https://doi.org/10.1016/j.respol.2026.105568)
 
 Working Papers
 ======
