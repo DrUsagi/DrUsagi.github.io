@@ -26,11 +26,14 @@ Research Interests
 ======
 My research focuses on Human-AI Collaboration (including ensembles and delegation) and the economic impact of GenAI, utilizing analytical modeling, design science, and experimental methods.
 
+Journal Articles
+======
+* **Shaohui Wang**. Hope, signals, and silicon: A game-theoretic model of the pre-doctoral academic labor market in the age of AI. *Research Policy*, 55(8), 105568. [https://doi.org/10.1016/j.respol.2026.105568](https://doi.org/10.1016/j.respol.2026.105568)
+
 Working Papers
 ======
 * **Shaohui Wang**. Optimizing Business Forecasting through Human-AI Decision Fusion: A Theoretical Framework and Simulation Study.
   * Presented at ICIS 2025
-* **Shaohui Wang**. Hope, Signals, and Silicon: A Game-Theoretic Model of the Pre-Doctoral Academic Labor Market in the Age of AI. [https://doi.org/10.48550/arXiv.2511.00068](https://doi.org/10.48550/arXiv.2511.00068)
 
 Conference Presentations
 ======
