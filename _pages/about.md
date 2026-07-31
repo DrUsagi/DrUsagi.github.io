@@ -11,15 +11,9 @@ I am a PhD student in Computer Information Systems at the [J. Mack Robinson Coll
 
 Research Interests
 ======
-My research focuses on two main areas:
+**Research Interests:** Economics and design of human–AI systems; human–AI collaboration, delegation, and decision fusion; information economics of AI; strategic and organizational consequences of generative and agentic AI.
 
-1. **Human-AI Collaboration**, including:
-   - Human-AI Ensembles
-   - Delegation between humans and AI systems
-
-2. **Impact of Generative AI (GenAI)** within the corporate finance setting
-
-I employ a diverse methodological toolkit, including: Analytical modeling, Design science, and Experimental methods.
+**Methods:** Formal analytical modeling, game theory, information economics, statistical learning and identification, computational simulation, experiments, causal inference, and design science.
 
 Background
 ======

@@ -24,7 +24,9 @@ Education
 
 Research Interests
 ======
-My research focuses on Human-AI Collaboration (including ensembles and delegation) and the economic impact of GenAI, utilizing analytical modeling, design science, and experimental methods.
+**Research Interests:** Economics and design of human–AI systems; human–AI collaboration, delegation, and decision fusion; information economics of AI; strategic and organizational consequences of generative and agentic AI.
+
+**Methods:** Formal analytical modeling, game theory, information economics, statistical learning and identification, computational simulation, experiments, causal inference, and design science.
 
 Journal Articles
 ======
@@ -48,7 +50,7 @@ Conference Presentations
 Professional Experience
 ======
 
-* **Investment Manager**, Group Finance Center in Hong Kong, Zinjin Mining Group (HKEX Stock Code: 2899.HK), September 2021 - March 2022, Hong Kong SAR
+* **Investment Manager**, Group Finance Center in Hong Kong, Zijin Mining Group (HKEX Stock Code: 2899.HK), September 2021 - March 2022, Hong Kong SAR
   * Private equity investment: Actively investment in mining-related upstream and downstream industries, new energy-related, power battery, and hydrogen energy-related industries.
 
 * **Deputy Investment Manager**, Investment Management Department, Guangdong Investment Limited (HKEX Stock Code: 0270.HK), September 2019 - September 2021, Hong Kong SAR
