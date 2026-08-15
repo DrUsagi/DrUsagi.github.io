@@ -57,7 +57,12 @@
 }
 
 .life-gallery__item--portrait {
-  grid-column: span 3;
+  grid-column: span 4;
+  grid-row: span 5;
+}
+
+.life-gallery__item--closing {
+  grid-column: span 6;
   grid-row: span 5;
 }
 
