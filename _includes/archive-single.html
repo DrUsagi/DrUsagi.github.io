@@ -27,6 +27,7 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
+      {% if include.paper_number %}{{ include.paper_number }}. {% endif %}
       {% if post.nolink %}
         {{ title }}
       {% elsif post.link %}
@@ -55,7 +56,11 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
+      {% if post.collection == 'publications' %}
+    <p class="publication__detail" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% else %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% endif %}
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
@@ -63,7 +68,11 @@
     {% capture paper_download_attr %}{% if post.paperdownload %} download{% endif %}{% endcapture %}
     
     {% if post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
+      {% if post.category != 'preprints' %}
+        {% if post.category != 'conferences' %}
+      <p class="publication__detail">Recommended citation: {{ post.citation }}</p>
+        {% endif %}
+      {% endif %}
     {% endif %}
 
     {% if post.paperurl or post.slidesurl or post.bibtexurl %}
