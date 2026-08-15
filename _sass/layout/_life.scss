@@ -47,22 +47,17 @@
 }
 
 .life-gallery__item--self {
-  grid-column: span 5;
-  grid-row: span 4;
-}
-
-.life-gallery__item--bike {
-  grid-column: span 7;
-  grid-row: span 4;
-}
-
-.life-gallery__item--portrait {
   grid-column: span 4;
   grid-row: span 5;
 }
 
-.life-gallery__item--closing {
-  grid-column: span 6;
+.life-gallery__item--bike {
+  grid-column: span 8;
+  grid-row: span 5;
+}
+
+.life-gallery__item--portrait {
+  grid-column: span 3;
   grid-row: span 5;
 }
 
