@@ -6,6 +6,7 @@ permalink: /publication/2025-11-01-hope-signals-silicon
 excerpt: 'This paper develops a game-theoretic model to analyze the pre-doctoral academic labor market dynamics in the age of AI.'
 date: 2026-10-01
 venue: 'Research Policy'
+link: 'https://doi.org/10.1016/j.respol.2026.105568'
 paperurl: '/files/hope-signals-silicon-research-policy-2026.pdf'
 paperdownload: true
 citation: 'Wang, S. (2026). &quot;Hope, signals, and silicon: A game-theoretic model of the pre-doctoral academic labor market in the age of AI.&quot; <i>Research Policy</i>, 55(8), 105568. https://doi.org/10.1016/j.respol.2026.105568.'

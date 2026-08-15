@@ -81,14 +81,14 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
+  preprints:
+    title: 'Working Papers'
   conferences:
     title: 'Conference Papers'
-  preprints:
-    title: 'Preprints & Working Papers'
+  books:
+    title: 'Books'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
