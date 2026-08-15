@@ -1,3 +1,7 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
+{% if page.life_gallery %}
+<script src="{{ '/assets/js/life-gallery.js' | relative_url }}" defer></script>
+{% endif %}
+
 {% include analytics.html %}

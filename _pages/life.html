@@ -1,0 +1,85 @@
+---
+layout: single
+title: "Beyond Research"
+permalink: /life/
+author_profile: true
+life_gallery: true
+---
+
+<div class="life-intro">
+  <p>Research matters deeply to me, but it is not the whole of my life. Away from papers and models, I make time for motorcycles, photography, music, and the small domestic dramas staged by my cats.</p>
+
+  <p>I am always glad to hear from prospective coauthors. I may be even more delighted, though, to hear from people who would like to go for a ride or make photographs together. I have been riding motorcycles for 11 years, and these days I ride a Kawasaki Z900RS and a Surron Ultra Bee. In earlier chapters, I owned a Ducati Hypermotard, Honda CB1100, Suzuki DR-Z400, and Yamaha MT-09.</p>
+
+  <p>Photography is the slower side of that same curiosity. I am especially drawn to medium- and large-format film, where waiting, uncertainty, and careful attention are part of the pleasure. If any of this sounds like your kind of afternoon, please get in touch.</p>
+</div>
+
+<div class="life-gallery" data-life-gallery aria-label="Photographs from life beyond research">
+  <figure class="life-gallery__item life-gallery__item--film">
+    <button class="life-gallery__button js-life-photo" type="button" data-full="{{ '/images/life/hong-kong-harbour-film.jpg' | relative_url }}" aria-label="Open full photograph: Hong Kong harbour on film">
+      <img src="{{ '/images/life/hong-kong-harbour-film.jpg' | relative_url }}" width="1280" height="1616" alt="A film photograph of Hong Kong harbour with a yellow ferry" fetchpriority="high" decoding="async">
+    </button>
+  </figure>
+
+  <figure class="life-gallery__item life-gallery__item--city">
+    <button class="life-gallery__button js-life-photo" type="button" data-full="{{ '/images/life/hong-kong-at-dusk.jpg' | relative_url }}" aria-label="Open full photograph: Hong Kong at dusk">
+      <img src="{{ '/images/life/hong-kong-at-dusk.jpg' | relative_url }}" width="1715" height="1280" alt="The Hong Kong skyline and harbour at dusk" loading="lazy" decoding="async">
+    </button>
+  </figure>
+
+  <figure class="life-gallery__item life-gallery__item--self">
+    <button class="life-gallery__button js-life-photo" type="button" data-full="{{ '/images/life/self-portrait-with-camera.jpg' | relative_url }}" aria-label="Open full photograph: self-portrait with a camera">
+      <img src="{{ '/images/life/self-portrait-with-camera.jpg' | relative_url }}" width="1894" height="1280" alt="A mirror self-portrait while holding a camera" loading="lazy" decoding="async">
+    </button>
+  </figure>
+
+  <figure class="life-gallery__item life-gallery__item--bike">
+    <button class="life-gallery__button js-life-photo" type="button" data-full="{{ '/images/life/kawasaki-z900rs.jpg' | relative_url }}" aria-label="Open full photograph: Kawasaki Z900RS">
+      <img src="{{ '/images/life/kawasaki-z900rs.jpg' | relative_url }}" width="1707" height="1280" alt="A Kawasaki Z900RS parked beside a forest road" loading="lazy" decoding="async">
+    </button>
+  </figure>
+
+  <figure class="life-gallery__item life-gallery__item--portrait">
+    <button class="life-gallery__button js-life-photo" type="button" data-full="{{ '/images/life/trail-riding-self-portrait.jpg' | relative_url }}" aria-label="Open full photograph: trail riding">
+      <img src="{{ '/images/life/trail-riding-self-portrait.jpg' | relative_url }}" width="1280" height="1707" alt="A trail-riding self-portrait in motocross gear" loading="lazy" decoding="async">
+    </button>
+  </figure>
+
+  <figure class="life-gallery__item life-gallery__item--portrait">
+    <button class="life-gallery__button js-life-photo" type="button" data-full="{{ '/images/life/calico-cat-portrait.jpg' | relative_url }}" aria-label="Open full photograph: calico cat portrait">
+      <img src="{{ '/images/life/calico-cat-portrait.jpg' | relative_url }}" width="1280" height="1707" alt="A calico cat looking out from a cat house" loading="lazy" decoding="async">
+    </button>
+  </figure>
+
+  <figure class="life-gallery__item life-gallery__item--portrait">
+    <button class="life-gallery__button js-life-photo" type="button" data-full="{{ '/images/life/cats-at-play.jpg' | relative_url }}" aria-label="Open full photograph: cats at play">
+      <img src="{{ '/images/life/cats-at-play.jpg' | relative_url }}" width="1280" height="1707" alt="Two cats playing on a wooden floor" loading="lazy" decoding="async">
+    </button>
+  </figure>
+
+  <figure class="life-gallery__item life-gallery__item--closing">
+    <button class="life-gallery__button js-life-photo" type="button" data-full="{{ '/images/life/two-cats-at-home.jpg' | relative_url }}" aria-label="Open full photograph: two cats at home">
+      <img src="{{ '/images/life/two-cats-at-home.jpg' | relative_url }}" width="960" height="1280" alt="A calico cat and a white kitten standing together" loading="lazy" decoding="async">
+    </button>
+  </figure>
+
+  <figure class="life-gallery__item life-gallery__item--closing">
+    <button class="life-gallery__button js-life-photo" type="button" data-full="{{ '/images/life/cats-by-the-window.jpg' | relative_url }}" aria-label="Open full photograph: cats by the window">
+      <img src="{{ '/images/life/cats-by-the-window.jpg' | relative_url }}" width="1280" height="1707" alt="Two cats watching the light by a window" loading="lazy" decoding="async">
+    </button>
+  </figure>
+</div>
+
+<dialog class="life-lightbox" id="life-lightbox" aria-label="Full-size photograph viewer">
+  <button class="life-lightbox__control life-lightbox__close" type="button" data-life-close aria-label="Close full-size photograph" title="Close">
+    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+  </button>
+  <button class="life-lightbox__control life-lightbox__previous" type="button" data-life-previous aria-label="Previous photograph" title="Previous photograph">
+    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+  </button>
+  <img class="life-lightbox__image" data-life-full-image alt="">
+  <button class="life-lightbox__control life-lightbox__next" type="button" data-life-next aria-label="Next photograph" title="Next photograph">
+    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+  </button>
+  <p class="life-lightbox__counter" data-life-counter aria-live="polite"></p>
+</dialog>

@@ -19,6 +19,9 @@ main:
     
   - title: "CV"
     url: /cv/
+
+  - title: "Beyond Research"
+    url: /life/
     
   - title: "Blog Posts"
     url: /year-archive/

@@ -1,0 +1,242 @@
+/* ===========================================================================
+   LIFE BEYOND RESEARCH
+   ========================================================================== */
+
+.life-intro {
+  max-width: 52rem;
+  margin-bottom: 2rem;
+
+  p {
+    line-height: 1.7;
+  }
+}
+
+.life-gallery {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-rows: 50px;
+  gap: 10px;
+  margin: 1.75rem 0 3rem;
+}
+
+.life-gallery__item {
+  position: relative;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 3px;
+  background: var(--global-border-color);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+
+  &:hover,
+  &:focus-within {
+    z-index: 2;
+    transform: scale(1.025);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
+  }
+}
+
+.life-gallery__item--film {
+  grid-column: span 4;
+  grid-row: span 5;
+}
+
+.life-gallery__item--city {
+  grid-column: span 8;
+  grid-row: span 5;
+}
+
+.life-gallery__item--self {
+  grid-column: span 5;
+  grid-row: span 4;
+}
+
+.life-gallery__item--bike {
+  grid-column: span 7;
+  grid-row: span 4;
+}
+
+.life-gallery__item--portrait {
+  grid-column: span 4;
+  grid-row: span 5;
+}
+
+.life-gallery__item--closing {
+  grid-column: span 6;
+  grid-row: span 5;
+}
+
+.life-gallery__button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: inherit;
+  background: transparent;
+  cursor: zoom-in;
+
+  &:focus-visible {
+    outline: 3px solid var(--global-link-color);
+    outline-offset: -3px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 260ms ease;
+  }
+
+  &:hover img,
+  &:focus-visible img {
+    transform: scale(1.035);
+  }
+}
+
+.life-lightbox {
+  width: 100vw;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  color: #fff;
+  background: rgba(8, 10, 12, 0.96);
+
+  &[open] {
+    display: grid;
+    place-items: center;
+  }
+
+  &::backdrop {
+    background: rgba(8, 10, 12, 0.96);
+  }
+}
+
+.life-lightbox__image {
+  display: block;
+  max-width: calc(100vw - 7rem);
+  max-height: calc(100dvh - 5rem);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.life-lightbox__control {
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 50%;
+  color: #fff;
+  background: rgba(16, 18, 20, 0.72);
+  cursor: pointer;
+  transition: background 160ms ease, border-color 160ms ease;
+
+  &:hover,
+  &:focus-visible {
+    border-color: rgba(255, 255, 255, 0.72);
+    background: rgba(45, 49, 53, 0.92);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+  }
+}
+
+.life-lightbox__close {
+  top: 1rem;
+  right: 1rem;
+}
+
+.life-lightbox__previous,
+.life-lightbox__next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.life-lightbox__previous {
+  left: 1rem;
+}
+
+.life-lightbox__next {
+  right: 1rem;
+}
+
+.life-lightbox__counter {
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: $type-size-6;
+  transform: translateX(-50%);
+}
+
+.life-lightbox-open {
+  overflow: hidden;
+}
+
+@media (max-width: $medium) {
+  .life-gallery {
+    display: block;
+    column-count: 2;
+    column-gap: 8px;
+  }
+
+  .life-gallery__item {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0 0 8px;
+    break-inside: avoid;
+  }
+
+  .life-gallery__button,
+  .life-gallery__button img {
+    height: auto;
+  }
+
+  .life-lightbox__image {
+    max-width: calc(100vw - 2rem);
+    max-height: calc(100dvh - 8rem);
+  }
+
+  .life-lightbox__previous,
+  .life-lightbox__next {
+    top: auto;
+    bottom: 1rem;
+    transform: none;
+  }
+
+  .life-lightbox__previous {
+    left: 1rem;
+  }
+
+  .life-lightbox__next {
+    right: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .life-gallery__item,
+  .life-gallery__button img,
+  .life-lightbox__control {
+    transition: none;
+  }
+}
+
+@media print {
+  .life-lightbox {
+    display: none;
+  }
+}
