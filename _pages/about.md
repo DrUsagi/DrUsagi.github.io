@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Computer Information Systems at the [J. Mack Robinson College of Business](https://robinson.gsu.edu/), Georgia State University. I am fortunate to work with an exceptional team of advisors: [Balasubramaniam Ramesh](https://robinson.gsu.edu/profile/balasubramaniam-ramesh/), [Xinyu Fu](https://sherryfu0315.github.io/), and [JJ Hsieh](https://www.jjhsieh.com/).
+I am a PhD candidate in Computer Information Systems at the [J. Mack Robinson College of Business](https://robinson.gsu.edu/), Georgia State University. I am fortunate to work with an exceptional team of advisors: [Balasubramaniam Ramesh](https://robinson.gsu.edu/profile/balasubramaniam-ramesh/), [Xinyu Fu](https://sherryfu0315.github.io/), and [JJ Hsieh](https://www.jjhsieh.com/).
 
 Research Interests
 ======
