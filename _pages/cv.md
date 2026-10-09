@@ -58,6 +58,7 @@ Services
 * **ECIS** Ad-hoc reviewer (2 papers) for *European Conference on Information Systems (ECIS) 2026*
 * **SAIS** Ad-hoc reviewer (3 papers) for *Southern Association for Information Systems Annual Conference (SAIS) 2026*
 * **PACIS** Ad-hoc reviewer (3 papers) for *Pacific Asia Conference on Information Systems (PACIS) 2026*
+* **WITS** Ad-hoc reviewer (2 papers) for *Workshop on Information Technologies and Systems (WITS) 2026*
 * **AOM Annual Meeting** Ad-hoc reviewer (6 papers) for *Academy of Management Annual Meeting 2026* (TIM and CTO divisions); moderator for the session "Controlled AI, Ethics, and Corporate Responsibility"
 * **Requirements Engineering** Ad-hoc reviewer
 
