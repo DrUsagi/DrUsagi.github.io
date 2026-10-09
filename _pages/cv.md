@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <div style="text-align: center; margin-bottom: 2em;">
-  <a href="{{ base_path }}/files/2026_Academic_CV.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #8B5CF6; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+  <a href="{{ base_path }}/files/2026_Academic_CV.pdf?v={{ site.time | date: '%s' }}" download style="display: inline-block; padding: 10px 20px; background-color: #8B5CF6; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
     📄 Download CV (PDF)
   </a>
 </div>
@@ -36,11 +36,11 @@ Journal Articles
 
 Working Papers
 ======
+* **Shaohui Wang**. The Delegation Efficient Frontier: Opportunity Sets for Human-AI Organizational Design. [SSRN 7275801](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7275801)
 * **Shaohui Wang and Siwei Wang**. Dividing Residual Control over AI Learning Assets: Complementary Investment Across Firm Boundaries. [SSRN 7253399](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7253399)
 * **Lixin Huang, Harley E. Ryan, and Shaohui Wang** (alphabetical author order). Who Controls the Model? AI Control Rights and Underinvestment.
   * Presented at AOM Annual Meeting 2026, Philadelphia, USA (TIM Division)
 * **Shaohui Wang**. Positive-unlabeled learning without instruments: identified sets for latent-class moments under selected-at-random labeling. [SSRN 6664249](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6664249)
-  * Under Review at Economics Letters
 * **Shaohui Wang, Balasubramaniam Ramesh, Xinyu Fu**. An Accountable Control Layer for Compassionate LLM: A Design Science Approach.
   * Rejected at Information Systems Research, Preparing for Journal Submission
 * **Shaohui Wang**. Optimizing Business Forecasting through Human-AI Decision Fusion: A Theoretical Framework and Simulation Study.
