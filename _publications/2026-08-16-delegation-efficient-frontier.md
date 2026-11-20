@@ -1,5 +1,6 @@
 ---
 title: "The Delegation Efficient Frontier: Opportunity Sets for Human-AI Organizational Design"
+authors: [Shaohui Wang]
 collection: publications
 category: preprints
 permalink: /publication/2026-08-16-delegation-efficient-frontier

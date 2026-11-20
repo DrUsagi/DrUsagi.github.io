@@ -1,5 +1,6 @@
 ---
 title: "Dividing Residual Control over AI Learning Assets: Complementary Investment Across Firm Boundaries"
+authors: [Shaohui Wang, Siwei Wang]
 collection: publications
 category: preprints
 permalink: /publication/2026-08-01-dividing-residual-control-ai-learning-assets

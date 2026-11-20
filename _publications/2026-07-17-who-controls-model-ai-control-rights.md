@@ -1,5 +1,6 @@
 ---
 title: "Who Controls the Model? AI Control Rights and Underinvestment"
+authors: [Lixin Huang, Harley E. Ryan, Shaohui Wang]
 collection: publications
 category: preprints
 permalink: /publication/2026-07-17-who-controls-model-ai-control-rights

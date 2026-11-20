@@ -1,5 +1,6 @@
 ---
 title: "Positive-unlabeled learning without instruments: identified sets for latent-class moments under selected-at-random labeling"
+authors: [Shaohui Wang]
 collection: publications
 category: preprints
 permalink: /publication/2026-04-28-positive-unlabeled-learning

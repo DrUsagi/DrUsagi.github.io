@@ -1,5 +1,6 @@
 ---
 title: "An Accountable Control Layer for Compassionate LLM: A Design Science Approach"
+authors: [Shaohui Wang, Balasubramaniam Ramesh, Xinyu Fu]
 collection: publications
 category: preprints
 permalink: /publication/2026-01-24-accountable-control-layer-compassionate-llm

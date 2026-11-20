@@ -1,5 +1,6 @@
 ---
 title: "Optimizing Business Forecasting through Human-AI Decision Fusion: A Theoretical Framework and Simulation Study"
+authors: [Shaohui Wang]
 collection: publications
 category: preprints
 permalink: /publication/2025-12-16-optimizing-business-forecasting

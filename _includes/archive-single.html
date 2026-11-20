@@ -44,13 +44,36 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          {% if post.category == 'conferences' %}
-            <p>Presented at <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-          {% elsif post.category == 'preprints' %}
-            <p>{{ post.status | default: "Working paper" }}</p>
-          {% else %}
-            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% if post.authors.size > 0 %}
+            <p class="publication__authors">
+              {%- for author in post.authors -%}
+                {%- unless forloop.first %}, {% endunless -%}
+                {%- if author == site.author.name -%}
+                  <strong>{{ author | escape }}</strong>
+                {%- else -%}
+                  {{ author | escape }}
+                {%- endif -%}
+              {%- endfor -%}
+              {% if post.authors.size == 1 %}
+                <span class="publication__badge"><i class="fas fa-user" aria-hidden="true"></i> Single Author</span>
+              {% endif %}
+            </p>
           {% endif %}
+          <p class="publication__venue">
+            {% if post.category == 'conferences' %}
+              Presented at <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+            {% elsif post.category == 'preprints' %}
+              {{ post.status | default: "Working paper" }}
+            {% else %}
+              Published in <strong><em>{{ post.venue | escape }}</em></strong>
+              {% for ranking in post.journal_rankings %}
+                <span class="publication__badge publication__badge--rank">{{ ranking | escape }}</span>
+              {%- endfor -%}, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+            {% endif %}
+            {% if post.revise_and_resubmit == true %}
+              <span class="publication__badge publication__badge--rr" title="Revise and Resubmit"><i class="fas fa-arrows-rotate" aria-hidden="true"></i> R&amp;R</span>
+            {% endif %}
+          </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
