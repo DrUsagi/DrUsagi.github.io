@@ -80,7 +80,9 @@
   gap: 0.3em;
   margin-inline-start: 0.4em;
   padding: 0.14em 0.45em;
-  border: 1px solid currentColor;
+  color: #fff;
+  background-color: mix(#000, $info-color, 15%);
+  border: 1px solid transparent;
   border-radius: 4px;
   font-size: 0.72rem;
   font-weight: 600;
@@ -88,20 +90,9 @@
   vertical-align: 0.08em;
   white-space: nowrap;
 
-  &--rank {
-    color: #345f52;
-
-    html[data-theme="dark"] & {
-      color: #a6d6c2;
-    }
-  }
-
-  &--rr {
-    color: #8a491e;
-
-    html[data-theme="dark"] & {
-      color: #ffbe92;
-    }
+  html[data-theme="dark"] & {
+    color: mix(#000, $info-color, 65%);
+    background-color: mix(#fff, $info-color, 50%);
   }
 }
 
